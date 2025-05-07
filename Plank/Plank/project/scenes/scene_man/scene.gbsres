@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "14640f1d-85ec-4d89-89e3-6e0b392f7bc5",
+  "_index": 0,
+  "name": "Scene man",
+  "backgroundId": "undefined",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_1",
+  "x": 1008,
+  "y": 536,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
