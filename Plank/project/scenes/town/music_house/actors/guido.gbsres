@@ -4,7 +4,7 @@
   "_index": 2,
   "symbol": "actor_20",
   "prefabId": "",
-  "name": "DJ",
+  "name": "Guido",
   "x": 15,
   "y": 11,
   "frame": 0,
@@ -19,62 +19,6 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "script": [
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "variable": "17",
-        "__collapseElse": false,
-        "condition": {
-          "type": "eq",
-          "valueA": {
-            "type": "variable",
-            "value": "17"
-          },
-          "valueB": {
-            "type": "false"
-          }
-        },
-        "__collapse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Welcome to the\nMusic House!",
-                "Try the instruments to\nplay some tunes",
-                "And use the machines at\nthe back to play some\nsound effects"
-              ],
-              "avatarId": ""
-            },
-            "id": "92b67a21-405d-423e-8a9f-f40382fb42ea"
-          }
-        ],
-        "false": [
-          {
-            "command": "EVENT_ACTOR_EMOTE",
-            "args": {
-              "actorId": "$self$",
-              "emoteId": "e9e38933-9942-44ca-943c-a85fa46d8139"
-            },
-            "id": "628c434d-402e-469d-b422-bed38fd84f90"
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "YEAH!",
-                "You can edit any song\nwith the Music Editor"
-              ],
-              "avatarId": ""
-            },
-            "id": "753125e9-3087-4523-ac29-f22aa451f8e1"
-          }
-        ]
-      },
-      "id": "832c82bf-1e5d-4203-8e10-04d103fbf82f"
-    },
     {
       "command": "EVENT_TEXT",
       "args": {
@@ -96,7 +40,8 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": true
       },
       "id": "0e4b635c-0338-4aba-8fb9-7c00c5637f82"
     },
@@ -115,32 +60,9 @@
         "option8": "",
         "cancelOnB": true,
         "layout": "dialogue",
-        "__collapse": false
-      },
-      "id": "d53427f7-f058-4496-9f80-f45fbf8de667"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "eq",
-          "valueA": {
-            "type": "variable",
-            "value": "20"
-          },
-          "valueB": {
-            "type": "number",
-            "value": 4
-          }
-        },
-        "__collapseElse": true,
         "__collapse": true
       },
-      "children": {
-        "true": [],
-        "false": []
-      },
-      "id": "479d62e1-d69d-4bd7-a104-a44a58473086"
+      "id": "d53427f7-f058-4496-9f80-f45fbf8de667"
     },
     {
       "command": "EVENT_IF",
@@ -156,8 +78,8 @@
             "value": 1
           }
         },
-        "__collapseElse": false,
-        "__collapse": false
+        "__collapseElse": true,
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -412,7 +334,29 @@
             "id": "a6fba1fb-4261-43b2-bb70-f934d929d833"
           }
         ],
-        "false": [
+        "false": []
+      },
+      "id": "cf322e4f-ade3-47ef-ac44-321477f4ac07"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "20"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
           {
             "command": "EVENT_MENU",
             "args": {
@@ -428,7 +372,7 @@
               "option8": "",
               "cancelOnB": true,
               "layout": "dialogue",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "80dcdaa2-ee12-4b50-8a40-87378a840dbe"
           },
@@ -446,7 +390,8 @@
                   "value": 1
                 }
               },
-              "__collapseElse": true
+              "__collapseElse": true,
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -522,7 +467,8 @@
                   "value": 2
                 }
               },
-              "__collapseElse": true
+              "__collapseElse": true,
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -598,7 +544,8 @@
                   "value": 3
                 }
               },
-              "__collapseElse": true
+              "__collapseElse": true,
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -660,9 +607,10 @@
             },
             "id": "1ee7fda9-5359-4aba-b54a-d328364eb5ee"
           }
-        ]
+        ],
+        "false": []
       },
-      "id": "cf322e4f-ade3-47ef-ac44-321477f4ac07"
+      "id": "73d0ac2b-4060-443b-b50a-22833c1be54d"
     }
   ],
   "startScript": [],
