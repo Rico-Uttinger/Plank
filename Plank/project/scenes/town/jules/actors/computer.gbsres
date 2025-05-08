@@ -248,6 +248,111 @@
         "false": []
       },
       "id": "ba548383-5069-4e3e-9022-12ff3aa83b5d"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "29"
+          },
+          "valueB": {
+            "type": "and",
+            "valueA": {
+              "type": "variable",
+              "value": "31"
+            },
+            "valueB": {
+              "type": "and",
+              "valueA": {
+                "type": "variable",
+                "value": "32"
+              },
+              "valueB": {
+                "type": "and",
+                "valueA": {
+                  "type": "variable",
+                  "value": "33"
+                },
+                "valueB": {
+                  "type": "true"
+                }
+              }
+            }
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Du hesch mit allne gredt\nWetsch is Bettli?"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "2c380280-a057-4053-ba08-eec953eee59c"
+          },
+          {
+            "command": "EVENT_CHOICE",
+            "args": {
+              "variable": "34",
+              "trueText": "Jo",
+              "falseText": "Nö"
+            },
+            "id": "81fe6f3d-d4bf-4f9e-8f08-9a383700b381"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Du hesch no öpr\nvergesse :)"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "dd9d2b23-0f01-462f-9ce7-7f4e5dec8660"
+          }
+        ]
+      },
+      "id": "1cd94120-be41-4e08-aa20-595cf8347272"
     }
   ],
   "startScript": [],

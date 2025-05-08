@@ -158,8 +158,8 @@
     },
     {
       "id": "19",
-      "name": "Moral_Guido",
-      "symbol": "var_moral_guido"
+      "name": "vero",
+      "symbol": "var_vero"
     },
     {
       "id": "20",
@@ -230,6 +230,11 @@
       "id": "33",
       "name": "bool_Eve",
       "symbol": "var_bool_eve"
+    },
+    {
+      "id": "34",
+      "name": "Sleep",
+      "symbol": "var_sleep"
     }
   ]
 }
