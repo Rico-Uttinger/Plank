@@ -1,0 +1,49 @@
+{
+  "_resourceType": "scene",
+  "id": "2bc74dbe-18b3-47e7-8a64-027b04102a31",
+  "_index": 18,
+  "name": "Kitchen",
+  "backgroundId": "c964e1b1-a81e-4f03-bd06-eb9d926d9bce",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "5393f326-05b0-43c1-a234-1ce17d304541",
+    "444c886c-6214-48d7-8e3c-4dca4f65dec7"
+  ],
+  "spritePaletteIds": [
+    "",
+    ""
+  ],
+  "collisions": "0028+0f14+0012c+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_19",
+  "x": 568,
+  "y": 264,
+  "script": [
+    {
+      "id": "a4fda82a-b859-4423-acc1-7c2cbe4d6175",
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "bc9f67e9-b6f2-4216-b8b6-63505f3b7118",
+        "__name": "Init Menu"
+      },
+      "children": {
+        "script": []
+      },
+      "__type": "event"
+    },
+    {
+      "id": "a30c06e3-a43e-497e-b11b-46a9bd25fd01",
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "a48b4a96-9a5a-4511-b38a-98d56dd996ba",
+        "loop": true
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

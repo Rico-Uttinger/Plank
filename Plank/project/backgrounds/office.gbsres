@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "d37c3b0b-439e-4fbe-b259-120a9fced2f4",
+  "name": "Office",
+  "symbol": "bg_office",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Office.png",
+  "tileColors": ""
+}
