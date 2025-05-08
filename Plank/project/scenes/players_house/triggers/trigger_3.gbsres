@@ -15,14 +15,8 @@
       "id": "ddde47bf-464a-4d44-9246-aeec5c1fe5b7",
       "command": "EVENT_TEXT",
       "args": {
-        "text": [
-          "Du Hurensohn",
-          "sry hani nöd ernst\ngmeint",
-          "Nutte"
-        ],
-        "avatarId": "",
-        "__section": "text",
-        "__collapse": false
+        "text": "Nice poster!",
+        "avatarId": ""
       }
     }
   ],

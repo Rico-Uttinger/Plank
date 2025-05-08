@@ -25,15 +25,8 @@
       "id": "63e9130c-73a6-45d9-9b11-356dc94688e4",
       "command": "EVENT_TEXT",
       "args": {
-        "text": [
-          "Boo"
-        ],
-        "avatarId": "",
-        "__section": "layout",
-        "minHeight": 12,
-        "textX": 8,
-        "textY": 5,
-        "maxHeight": 6
+        "text": "It has a VHS\nplayer built in!",
+        "avatarId": ""
       }
     }
   ],

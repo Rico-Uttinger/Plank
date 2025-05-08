@@ -33,8 +33,7 @@
           "valueB": {
             "type": "false"
           }
-        },
-        "__collapse": false
+        }
       },
       "children": {
         "true": [
