@@ -205,6 +205,31 @@
       "id": "28",
       "name": "Aufmunterung",
       "symbol": "var_aufmunterung"
+    },
+    {
+      "id": "29",
+      "name": "bool_Guido",
+      "symbol": "var_bool_guido"
+    },
+    {
+      "id": "30",
+      "name": "Koch",
+      "symbol": "var_koch"
+    },
+    {
+      "id": "31",
+      "name": "bool_Veronique",
+      "symbol": "var_bool_veronique"
+    },
+    {
+      "id": "32",
+      "name": "bool_Claude",
+      "symbol": "var_bool_claude"
+    },
+    {
+      "id": "33",
+      "name": "bool_Eve",
+      "symbol": "var_bool_eve"
     }
   ]
 }
