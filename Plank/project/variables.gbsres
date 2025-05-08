@@ -163,8 +163,8 @@
     },
     {
       "id": "20",
-      "name": "Spruch",
-      "symbol": "var_spruch"
+      "name": "SpruchKategorie",
+      "symbol": "var_spruchkategorie"
     },
     {
       "id": "21",
@@ -195,6 +195,16 @@
       "id": "26",
       "name": "Moral_Veronique",
       "symbol": "var_moral_veronique"
+    },
+    {
+      "id": "27",
+      "name": "Beleidigung",
+      "symbol": "var_beleidigung"
+    },
+    {
+      "id": "28",
+      "name": "Aufmunterung",
+      "symbol": "var_aufmunterung"
     }
   ]
 }
