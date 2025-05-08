@@ -16,11 +16,22 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Check out\ngbstudio.dev/docs"
+          "Lueg mal min Zaubertrick"
         ],
         "avatarId": ""
       },
       "__type": "event"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "7935d9e9-1333-4552-a989-c1b369b8c8cc"
     }
   ],
   "leaveScript": []

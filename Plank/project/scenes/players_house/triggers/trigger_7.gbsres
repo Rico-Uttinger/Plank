@@ -18,7 +18,9 @@
         "text": [
           "My collection\nof games..."
         ],
-        "avatarId": ""
+        "avatarId": "",
+        "__section": "text",
+        "showFrame": true
       }
     }
   ],
