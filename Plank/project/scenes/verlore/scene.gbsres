@@ -1,0 +1,25 @@
+{
+  "_resourceType": "scene",
+  "id": "da6368d1-2af3-4764-8518-4f85660fdbb5",
+  "_index": 13,
+  "name": "Verlore",
+  "backgroundId": "641ef649-9513-4264-bbc0-89cd04d7b976",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    null,
+    "default-bg-2"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_14",
+  "x": 1432,
+  "y": 488,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
