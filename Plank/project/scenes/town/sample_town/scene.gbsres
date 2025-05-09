@@ -59,7 +59,7 @@
                     },
                     "y": {
                       "type": "number",
-                      "value": 5
+                      "value": 4
                     },
                     "direction": "",
                     "fadeSpeed": "2"
