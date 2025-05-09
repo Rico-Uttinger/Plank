@@ -172,6 +172,76 @@
       "symbol": "var_bool_eve"
     },
     {
+      "id": "34",
+      "name": "Sleep",
+      "symbol": "var_sleep"
+    },
+    {
+      "id": "35",
+      "name": "Hidden_Guido",
+      "symbol": "var_hidden_guido"
+    },
+    {
+      "id": "36",
+      "name": "Hidden_Vera",
+      "symbol": "var_hidden_vera"
+    },
+    {
+      "id": "37",
+      "name": "Hidden_Claude",
+      "symbol": "var_hidden_claude"
+    },
+    {
+      "id": "38",
+      "name": "Hidden_Eve",
+      "symbol": "var_hidden_eve"
+    },
+    {
+      "id": "39",
+      "name": "Leistung_Gesamt",
+      "symbol": "var_leistung_gesamt"
+    },
+    {
+      "id": "40",
+      "name": "Leistung_Average",
+      "symbol": "var_leistung_average"
+    },
+    {
+      "id": "41",
+      "name": "Moral_Gesamt",
+      "symbol": "var_moral_gesamt"
+    },
+    {
+      "id": "42",
+      "name": "Moral_Average",
+      "symbol": "var_moral_average"
+    },
+    {
+      "id": "43",
+      "name": "Sterne",
+      "symbol": "var_sterne"
+    },
+    {
+      "id": "44",
+      "name": "SleepCounter",
+      "symbol": "var_sleepcounter"
+    },
+    {
+      "id": "509",
+      "name": "Variable 510",
+      "symbol": "var_variable_510"
+    },
+    {
+      "id": "510",
+      "name": "Variable 511",
+      "symbol": "var_variable_511"
+    },
+    {
+      "id": "511",
+      "name": "Variable 509",
+      "symbol": "var_variable_509"
+    },
+    {
       "id": "871ea302-1cc1-463c-b9d7-530aac38fe81__L0",
       "name": "Spoken to gardener",
       "symbol": ""

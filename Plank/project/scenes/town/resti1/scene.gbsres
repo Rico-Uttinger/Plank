@@ -1,0 +1,161 @@
+{
+  "_resourceType": "scene",
+  "id": "4ebc5249-2878-434c-aab7-091dec325fc6",
+  "_index": 2,
+  "type": "TOPDOWN",
+  "name": "town/Resti1",
+  "symbol": "scene_17",
+  "x": 808,
+  "y": 272,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "95865907-8044-4ac7-96d1-fe1286b21436",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {
+        "__collapse": false
+      },
+      "id": "919e8390-3d03-4bfb-ba3e-5119c1bff417"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "680daa33-92d8-4cbb-a022-b2b10894dd4d"
+      },
+      "id": "4cca5aaf-1fac-4439-95a6-428fe4671ec8"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "35"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "8e2d73a9-eaf9-4fa8-a493-854cecf2de8d",
+              "__collapse": true
+            },
+            "id": "5e360307-2275-4a79-8d16-1543e8d68c62"
+          }
+        ],
+        "false": []
+      },
+      "id": "d4d01337-acd8-4644-b198-b1927df3e64d"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "36"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "8f7c39f3-4295-437c-a095-d8f3ff2a192c",
+              "__collapse": true
+            },
+            "id": "a81c2b90-6dcc-40c2-859f-2df950c337c2"
+          }
+        ],
+        "false": []
+      },
+      "id": "16106bce-e92e-4be6-9de0-856ec58daaa0"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "37"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "ade5e704-9b30-4e76-8c37-74220f7e62c4",
+              "__collapse": true
+            },
+            "id": "317c7e21-cfd5-4d7c-8a63-f45281343cda"
+          }
+        ],
+        "false": []
+      },
+      "id": "999b1606-0e40-419d-bc8e-96c94c0f07d2"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "38"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "fc8fac97-4228-457c-92e1-5394981bf2cf",
+              "__collapse": true
+            },
+            "id": "b120c803-1449-42b5-9cc7-38ade3427157"
+          }
+        ],
+        "false": []
+      },
+      "id": "521f065a-802b-430b-8189-18a364398a9a"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0028+0f!002+0f!0014+0f10+0028+0f3+003+0fa+006+0f!003+0f!008+0f!004+0f3+003+0fa+0018+0f2+007+0f6+006+0f!0013+0f3+0010+0f4+0060+"
+}

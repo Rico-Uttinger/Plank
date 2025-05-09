@@ -1,0 +1,38 @@
+{
+  "_resourceType": "scene",
+  "id": "8e2839ed-a201-40c1-bbe9-2f04c341a162",
+  "_index": 9,
+  "type": "TOPDOWN",
+  "name": "Gwunne",
+  "symbol": "scene_10",
+  "x": 1264,
+  "y": 488,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "ba7da125-4f4d-4598-8e61-7f6fd4d5758a",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "default-bg-2",
+    "",
+    "default-bg-2",
+    "444c886c-6214-48d7-8e3c-4dca4f65dec7",
+    "",
+    "9fb1f41b-54d4-43c6-8731-16de50176aa0"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "577e3cdd-be7f-4af5-9657-485ec42513aa"
+      },
+      "id": "ed1feacf-6bee-4c71-b77c-9db15611bc86"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

@@ -1,23 +1,20 @@
 {
   "_resourceType": "actor",
-  "id": "8e2d73a9-eaf9-4fa8-a493-854cecf2de8d",
-  "_index": 0,
-  "symbol": "actor_20",
-  "prefabId": "",
-  "name": "Guido",
-  "x": 12,
-  "y": 9,
+  "id": "fc8fac97-4228-457c-92e1-5394981bf2cf",
+  "name": "Eve",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "a9ee1856-b62b-49d8-8eb3-cdf681fa2e76",
-  "paletteId": "",
+  "spriteSheetId": "7a27b229-5f3d-4eaa-b20c-07997673324d",
+  "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
-  "animSpeed": 255,
+  "animSpeed": 15,
+  "paletteId": "",
   "isPinned": false,
-  "persistent": false,
+  "persistent": true,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
+  "symbol": "actor_22",
   "script": [
     {
       "command": "EVENT_IF",
@@ -26,7 +23,7 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "29"
+            "value": "33"
           },
           "valueB": {
             "type": "false"
@@ -41,7 +38,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Mini Soup isch versalze \n:("
+                "Schaaaaaarf"
               ],
               "__section": "text",
               "avatarId": "",
@@ -61,31 +58,37 @@
               "closeDelayFrames": 30,
               "__collapse": true
             },
-            "id": "0e4b635c-0338-4aba-8fb9-7c00c5637f82"
+            "id": "a6db0dc1-1d0f-448e-b570-c59dc3775217"
           },
           {
-            "command": "EVENT_SET_VALUE",
+            "command": "EVENT_VARIABLE_MATH",
             "args": {
-              "variable": "18",
-              "value": {
-                "type": "number",
-                "value": -20
-              },
+              "vectorX": "23",
+              "operation": "add",
+              "other": "val",
+              "vectorY": "L0",
+              "value": "0",
+              "minValue": "0",
+              "maxValue": "32767",
+              "clamp": false,
               "__collapse": true
             },
-            "id": "6d2ace6e-583e-4b58-84b2-f9d136584490"
+            "id": "c8cb2d5c-d3aa-4425-9334-632a9e68dd9c"
           },
           {
-            "command": "EVENT_SET_VALUE",
+            "command": "EVENT_VARIABLE_MATH",
             "args": {
-              "variable": "19",
-              "value": {
-                "type": "number",
-                "value": -30
-              },
+              "vectorX": "24",
+              "operation": "add",
+              "other": "val",
+              "vectorY": "L0",
+              "value": -10,
+              "minValue": "0",
+              "maxValue": "32767",
+              "clamp": false,
               "__collapse": true
             },
-            "id": "9ea5df48-8a95-405e-99cc-5a12af4dea00"
+            "id": "0e516fe7-22f1-4387-9a89-308f104e2fd4"
           },
           {
             "command": "EVENT_MENU",
@@ -104,7 +107,7 @@
               "layout": "dialogue",
               "__collapse": true
             },
-            "id": "d53427f7-f058-4496-9f80-f45fbf8de667"
+            "id": "5dee07cd-8c87-4cdc-b375-a9fdcdf0a198"
           },
           {
             "command": "EVENT_IF",
@@ -132,7 +135,7 @@
                     "items": 3,
                     "option1": "Mega lustig",
                     "option2": "Küss dein Auge Bruder",
-                    "option3": "Chund alles guet",
+                    "option3": "Zahlsch mal eis",
                     "option4": "",
                     "option5": "",
                     "option6": "",
@@ -140,9 +143,9 @@
                     "option8": "",
                     "cancelOnB": true,
                     "layout": "dialogue",
-                    "__collapse": false
+                    "__collapse": true
                   },
-                  "id": "0a0f9918-ed43-447b-99de-b8405375cb9f"
+                  "id": "210d295c-76c9-4dc9-91ff-a7d3eb4761f8"
                 },
                 {
                   "command": "EVENT_IF",
@@ -186,12 +189,12 @@
                           "closeDelayTime": 0.5,
                           "closeDelayFrames": 30
                         },
-                        "id": "e31d1528-9238-4ec9-a0c3-7f9c26ec9c1e"
+                        "id": "31a8728b-3304-4f06-b4c9-17b97f0db14c"
                       },
                       {
                         "command": "EVENT_VARIABLE_MATH",
                         "args": {
-                          "vectorX": "18",
+                          "vectorX": "23",
                           "operation": "sub",
                           "other": "val",
                           "vectorY": "L0",
@@ -200,12 +203,12 @@
                           "maxValue": "32767",
                           "clamp": false
                         },
-                        "id": "1e8d3e22-df4b-4751-bec0-e388c310f7ef"
+                        "id": "f587752a-72a3-49dc-a965-57fd97ee6488"
                       },
                       {
                         "command": "EVENT_VARIABLE_MATH",
                         "args": {
-                          "vectorX": "19",
+                          "vectorX": "24",
                           "operation": "add",
                           "other": "val",
                           "vectorY": "L0",
@@ -214,12 +217,12 @@
                           "maxValue": "32767",
                           "clamp": false
                         },
-                        "id": "32bfa3e4-d957-4438-ad03-09661a2df668"
+                        "id": "e375c139-0f5e-4b66-8eaf-f9d245bed666"
                       }
                     ],
                     "false": []
                   },
-                  "id": "10a5a4cd-13b4-49ad-905d-b69e4adbed1a"
+                  "id": "0521ed39-fa0c-4739-95d9-3f9b55733a8f"
                 },
                 {
                   "command": "EVENT_IF",
@@ -263,12 +266,12 @@
                           "closeDelayTime": 0.5,
                           "closeDelayFrames": 30
                         },
-                        "id": "45592697-331e-45e9-a8a4-11fe9dead93e"
+                        "id": "f9b89602-b345-496f-a3d9-198ec71a9f8a"
                       },
                       {
                         "command": "EVENT_VARIABLE_MATH",
                         "args": {
-                          "vectorX": "18",
+                          "vectorX": "23",
                           "operation": "add",
                           "other": "val",
                           "vectorY": "L0",
@@ -277,12 +280,12 @@
                           "maxValue": "32767",
                           "clamp": false
                         },
-                        "id": "08c113f5-dff8-4583-8b30-0046b54568d6"
+                        "id": "8f15030c-82d9-4d24-9cf1-5294c632f018"
                       },
                       {
                         "command": "EVENT_VARIABLE_MATH",
                         "args": {
-                          "vectorX": "19",
+                          "vectorX": "24",
                           "operation": "add",
                           "other": "val",
                           "vectorY": "L0",
@@ -291,12 +294,12 @@
                           "maxValue": "32767",
                           "clamp": false
                         },
-                        "id": "131a0be2-5f8f-4a11-a01e-0ebe276173a2"
+                        "id": "bfb577df-d932-47f7-9298-fc4d0c5c1de6"
                       }
                     ],
                     "false": []
                   },
-                  "id": "48c39775-3d4e-48a1-ac71-1c6c9097984a"
+                  "id": "8debc2c3-7f18-48f3-939d-aa7055cc073e"
                 },
                 {
                   "command": "EVENT_IF",
@@ -340,12 +343,12 @@
                           "closeDelayTime": 0.5,
                           "closeDelayFrames": 30
                         },
-                        "id": "41561217-6259-4382-a232-f98ff2f51b59"
+                        "id": "f4401047-dd17-4882-8041-8b2f1013d1fc"
                       },
                       {
                         "command": "EVENT_VARIABLE_MATH",
                         "args": {
-                          "vectorX": "18",
+                          "vectorX": "23",
                           "operation": "add",
                           "other": "val",
                           "vectorY": "L0",
@@ -354,12 +357,12 @@
                           "maxValue": "32767",
                           "clamp": false
                         },
-                        "id": "2d8d523c-688f-40b1-a7db-eeacec2d8e8a"
+                        "id": "af0b59fe-9e8c-4d01-995c-032d543e0a8b"
                       },
                       {
                         "command": "EVENT_VARIABLE_MATH",
                         "args": {
-                          "vectorX": "19",
+                          "vectorX": "24",
                           "operation": "add",
                           "other": "val",
                           "vectorY": "L0",
@@ -368,17 +371,17 @@
                           "maxValue": "32767",
                           "clamp": false
                         },
-                        "id": "691385f9-1445-4282-99e3-63188dab16d0"
+                        "id": "4c3d09f1-20bf-4900-8b40-8bee120c17b7"
                       }
                     ],
                     "false": []
                   },
-                  "id": "a6fba1fb-4261-43b2-bb70-f934d929d833"
+                  "id": "4dafafd5-f307-43be-86b4-afee4b225623"
                 }
               ],
               "false": []
             },
-            "id": "cf322e4f-ade3-47ef-ac44-321477f4ac07"
+            "id": "6adee1ed-81e8-41a8-b21a-1e5566f64303"
           },
           {
             "command": "EVENT_IF",
@@ -404,7 +407,7 @@
                   "args": {
                     "variable": "27",
                     "items": 3,
-                    "option1": "Dis Mami isch versalze",
+                    "option1": "Dis Mami",
                     "option2": "Daddy chill",
                     "option3": "Du wandelnde Unfall",
                     "option4": "",
@@ -414,9 +417,9 @@
                     "option8": "",
                     "cancelOnB": true,
                     "layout": "dialogue",
-                    "__collapse": false
+                    "__collapse": true
                   },
-                  "id": "80dcdaa2-ee12-4b50-8a40-87378a840dbe"
+                  "id": "00c81928-edab-42f0-a169-f54684daa830"
                 },
                 {
                   "command": "EVENT_IF",
@@ -433,7 +436,7 @@
                       }
                     },
                     "__collapseElse": true,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "children": {
                     "true": [
@@ -460,12 +463,12 @@
                           "closeDelayTime": 0.5,
                           "closeDelayFrames": 30
                         },
-                        "id": "7d3da04e-5938-43ea-9a3c-3815e1d46830"
+                        "id": "cea27ce4-8e8d-491d-b0e5-82f0b17f1461"
                       },
                       {
                         "command": "EVENT_VARIABLE_MATH",
                         "args": {
-                          "vectorX": "18",
+                          "vectorX": "23",
                           "operation": "add",
                           "other": "val",
                           "vectorY": "L0",
@@ -474,12 +477,12 @@
                           "maxValue": "32767",
                           "clamp": false
                         },
-                        "id": "ba3ac3b9-2dd7-4c78-b66e-332fc26356b9"
+                        "id": "ba4cfd2e-3f6a-4547-a603-1053861edd6c"
                       },
                       {
                         "command": "EVENT_VARIABLE_MATH",
                         "args": {
-                          "vectorX": "19",
+                          "vectorX": "24",
                           "operation": "sub",
                           "other": "val",
                           "vectorY": "L0",
@@ -488,12 +491,12 @@
                           "maxValue": "32767",
                           "clamp": false
                         },
-                        "id": "d36781e7-aced-4b5b-a689-c50e1d8e30d8"
+                        "id": "fdab4436-5b37-4dc1-a6ce-46795cbb6dc9"
                       }
                     ],
                     "false": []
                   },
-                  "id": "d2f8d19a-6680-4af3-81bb-ee3800e1b8f3"
+                  "id": "455399bb-c681-459f-a6ff-d6546a77d9b1"
                 },
                 {
                   "command": "EVENT_IF",
@@ -510,7 +513,7 @@
                       }
                     },
                     "__collapseElse": true,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "children": {
                     "true": [
@@ -537,12 +540,12 @@
                           "closeDelayTime": 0.5,
                           "closeDelayFrames": 30
                         },
-                        "id": "91156293-b4ab-41a6-95ba-9e031fbd74ef"
+                        "id": "c041bf1d-3b35-4f2b-af9f-80d0d5e067af"
                       },
                       {
                         "command": "EVENT_VARIABLE_MATH",
                         "args": {
-                          "vectorX": "18",
+                          "vectorX": "23",
                           "operation": "add",
                           "other": "val",
                           "vectorY": "L0",
@@ -551,12 +554,12 @@
                           "maxValue": "32767",
                           "clamp": false
                         },
-                        "id": "56f062f6-6bdc-475c-b343-44918d9a1a8b"
+                        "id": "f3c3b4ee-17a1-4ad7-abe7-d626abdd7863"
                       },
                       {
                         "command": "EVENT_VARIABLE_MATH",
                         "args": {
-                          "vectorX": "19",
+                          "vectorX": "24",
                           "operation": "add",
                           "other": "val",
                           "vectorY": "L0",
@@ -565,12 +568,12 @@
                           "maxValue": "32767",
                           "clamp": false
                         },
-                        "id": "da7f0d35-e0e9-49ac-9f12-5339fb9578a5"
+                        "id": "dc4e679e-ed83-4a2a-8976-30473fd002f3"
                       }
                     ],
                     "false": []
                   },
-                  "id": "2e356d57-5d71-482d-9dab-eeb79c8ca8e8"
+                  "id": "ddd1ea1a-5c23-4789-9c72-1ef44a12b084"
                 },
                 {
                   "command": "EVENT_IF",
@@ -587,7 +590,7 @@
                       }
                     },
                     "__collapseElse": true,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "children": {
                     "true": [
@@ -614,12 +617,12 @@
                           "closeDelayTime": 0.5,
                           "closeDelayFrames": 30
                         },
-                        "id": "1ce4570f-5c2d-4490-8917-7f8b5bb54db5"
+                        "id": "c7aebd22-7f58-4746-a422-f02f3057e5e8"
                       },
                       {
                         "command": "EVENT_VARIABLE_MATH",
                         "args": {
-                          "vectorX": "18",
+                          "vectorX": "23",
                           "operation": "add",
                           "other": "val",
                           "vectorY": "L0",
@@ -628,12 +631,12 @@
                           "maxValue": "32767",
                           "clamp": false
                         },
-                        "id": "055d6fcc-2856-4b3d-8e4b-151da19a7ad9"
+                        "id": "0aedbe48-57c9-4c5e-870a-0adf1f9edce7"
                       },
                       {
                         "command": "EVENT_VARIABLE_MATH",
                         "args": {
-                          "vectorX": "19",
+                          "vectorX": "24",
                           "operation": "sub",
                           "other": "val",
                           "vectorY": "L0",
@@ -642,73 +645,329 @@
                           "maxValue": "32767",
                           "clamp": false
                         },
-                        "id": "ac1c01bf-3478-49ef-b4b1-0a1528111a07"
+                        "id": "7a2b207a-c9b2-4744-bcc1-09f955c82f49"
                       }
                     ],
                     "false": []
                   },
-                  "id": "1ee7fda9-5359-4aba-b54a-d328364eb5ee"
+                  "id": "a7624540-52cf-4ddc-a0de-ebea90b8ae19"
                 }
               ],
               "false": []
             },
-            "id": "73d0ac2b-4060-443b-b50a-22833c1be54d"
+            "id": "c23b600b-a4a0-434d-b675-c8de9785e6e7"
           },
           {
             "command": "EVENT_SET_VALUE",
             "args": {
-              "variable": "29",
+              "variable": "33",
               "value": {
                 "type": "true"
               },
               "__collapse": true
             },
-            "id": "9f78cb21-855c-43be-bac8-51c0304f0739"
+            "id": "4a91946b-364a-4862-8bc4-d661100b7298"
           }
         ],
         "false": []
       },
-      "id": "c83cce5d-c051-41ac-9597-f75e7d7eace6"
+      "id": "7ec50474-7949-4371-94a3-7ba2484d4806"
     }
   ],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "33",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "595fd8c7-d5d7-428c-a50a-ea58bcf4bc4e"
+    }
+  ],
   "updateScript": [
     {
       "command": "EVENT_IF",
       "args": {
-        "variable": "17",
-        "__collapseElse": false,
         "condition": {
-          "type": "variable",
-          "value": "17"
-        }
+          "type": "gte",
+          "valueA": {
+            "type": "variable",
+            "value": "23"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 100
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
       },
       "children": {
         "true": [
           {
-            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+            "command": "EVENT_TEXT",
             "args": {
-              "actorId": "$self$",
-              "speed": 15
+              "text": [
+                "Eve hat aufgrund\nihrer Leistungen \neine andere Stelle \ngefunden."
+              ],
+              "__section": "text",
+              "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
-            "id": "1a4e3a8d-3408-4bc3-9780-136d3640f7f9"
+            "id": "9ebccc81-d428-466e-ab24-48e65c192ccd"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "fc8fac97-4228-457c-92e1-5394981bf2cf",
+              "__collapse": true
+            },
+            "id": "bbda44bf-bcac-4180-8e28-120a56e9e9a7"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "38",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": true
+            },
+            "id": "8ef665c7-ea52-45fe-8cea-08e4ecdd80b5"
           }
         ],
-        "false": [
-          {
-            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
-            "args": {
-              "actorId": "$self$",
-              "speed": 255
-            },
-            "id": "f72e2154-1880-47f9-b71e-09dd0a6670cb"
-          }
-        ]
+        "false": []
       },
-      "id": "2b24c596-a5a0-4774-a68d-b028f82e4c67"
+      "id": "4d0ee0b1-bf82-4adc-b06f-b0dae7ee9509"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "lte",
+          "valueA": {
+            "type": "variable",
+            "value": "23"
+          },
+          "valueB": {
+            "type": "number",
+            "value": -100
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Die Leistung von \nEve war mangel-\nhaft, also wurde sie\nentlassen."
+              ],
+              "__section": "text",
+              "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "7aa6cd11-2313-4c9b-80ac-2b72201cfe60"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "fc8fac97-4228-457c-92e1-5394981bf2cf",
+              "__collapse": true
+            },
+            "id": "39f63a73-d143-4fb5-9095-c43e23da353f"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "38",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": true
+            },
+            "id": "9a070cce-b9b9-415b-a925-b3f6f3647407"
+          }
+        ],
+        "false": []
+      },
+      "id": "59e97c80-ff2c-4203-9374-359062fcfcf8"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gte",
+          "valueA": {
+            "type": "variable",
+            "value": "24"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 100
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Eve fühlte sich so\nerfüllt, dass sie\nNeues entdecken\nwollte."
+              ],
+              "__section": "text",
+              "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "8461e6cb-937e-4fa6-97d5-dd3fcb0746a0"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "fc8fac97-4228-457c-92e1-5394981bf2cf",
+              "__collapse": true
+            },
+            "id": "3688ec95-8c39-4da3-a7f5-75bb2d19ac60"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "38",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": true
+            },
+            "id": "5d50d6fa-e76c-4c3f-8560-e9e2cf51158d"
+          }
+        ],
+        "false": []
+      },
+      "id": "5c114ce5-3743-4451-82dd-ee561f21fa8c"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "lte",
+          "valueA": {
+            "type": "variable",
+            "value": "24"
+          },
+          "valueB": {
+            "type": "number",
+            "value": -100
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Eve war so\ngestresst, dass sie\ngekündigt hat."
+              ],
+              "__section": "text",
+              "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "f135df9c-16af-4d62-88a3-b3e153fe3a29"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "fc8fac97-4228-457c-92e1-5394981bf2cf",
+              "__collapse": true
+            },
+            "id": "63e00b69-96a4-4c2d-95ff-fe9351a5ce78"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "38",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": true
+            },
+            "id": "d5be6823-0ff2-4b20-a2e2-47288035e9c5"
+          }
+        ],
+        "false": []
+      },
+      "id": "5a9f6db8-ad87-4cba-9bac-bed949ea7fff"
     }
   ],
   "hit1Script": [],
   "hit2Script": [],
-  "hit3Script": []
+  "hit3Script": [],
+  "x": 16,
+  "y": 4,
+  "_index": 3
 }

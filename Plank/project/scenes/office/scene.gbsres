@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "82438e32-ddc3-43cf-904f-8bbecb1afbf6",
-  "_index": 19,
+  "_index": 10,
   "name": "Office",
   "backgroundId": "d37c3b0b-439e-4fbe-b259-120a9fced2f4",
   "tilesetId": "",
@@ -15,7 +15,20 @@
   "symbol": "scene_20",
   "x": 608,
   "y": 32,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "0e495c3b-bc0f-4e90-9860-a75fa58db43a"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "351b0d8f-9f01-442e-9138-237703f03438"
+      },
+      "id": "5621fe36-c201-4fb1-9d99-0f08d69e9b37"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []
