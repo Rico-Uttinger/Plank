@@ -177,6 +177,26 @@
       "symbol": "var_sleep"
     },
     {
+      "id": "35",
+      "name": "Hidden_Guido",
+      "symbol": "var_hidden_guido"
+    },
+    {
+      "id": "36",
+      "name": "Hidden_Vera",
+      "symbol": "var_hidden_vera"
+    },
+    {
+      "id": "37",
+      "name": "Hidden_Claude",
+      "symbol": "var_hidden_claude"
+    },
+    {
+      "id": "38",
+      "name": "Hidden_Eve",
+      "symbol": "var_hidden_eve"
+    },
+    {
       "id": "871ea302-1cc1-463c-b9d7-530aac38fe81__L0",
       "name": "Spoken to gardener",
       "symbol": ""
