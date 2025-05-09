@@ -89,7 +89,7 @@
     {
       "id": "17",
       "name": "Music House Playing",
-      "symbol": "var_music_house_playing"
+      "symbol": "var_music_house_playing_0"
     },
     {
       "id": "871ea302-1cc1-463c-b9d7-530aac38fe81__L0",
@@ -150,6 +150,86 @@
       "id": "5fa52cd0-57cd-414c-8b93-5601c6e9636f__L0",
       "name": "Defeated",
       "symbol": ""
+    },
+    {
+      "id": "18",
+      "name": "Leistung_Guido",
+      "symbol": "var_leistung_guido"
+    },
+    {
+      "id": "19",
+      "name": "Moral_Guido",
+      "symbol": "var_moral_guido"
+    },
+    {
+      "id": "20",
+      "name": "SpruchKategorie",
+      "symbol": "var_spruchkategorie"
+    },
+    {
+      "id": "21",
+      "name": "Leistung_Claude",
+      "symbol": "var_leistung_claude"
+    },
+    {
+      "id": "22",
+      "name": "Moral_Claude",
+      "symbol": "var_moral_claude"
+    },
+    {
+      "id": "23",
+      "name": "Leistung_Eve",
+      "symbol": "var_leistung_eve"
+    },
+    {
+      "id": "24",
+      "name": "Moral_Eve",
+      "symbol": "var_moral_eve"
+    },
+    {
+      "id": "25",
+      "name": "Leistung_Veronique",
+      "symbol": "var_leistung_veronique"
+    },
+    {
+      "id": "26",
+      "name": "Moral_Veronique",
+      "symbol": "var_moral_veronique"
+    },
+    {
+      "id": "27",
+      "name": "Beleidigung",
+      "symbol": "var_beleidigung"
+    },
+    {
+      "id": "28",
+      "name": "Aufmunterung",
+      "symbol": "var_aufmunterung"
+    },
+    {
+      "id": "29",
+      "name": "bool_Guido",
+      "symbol": "var_bool_guido"
+    },
+    {
+      "id": "30",
+      "name": "Koch",
+      "symbol": "var_koch"
+    },
+    {
+      "id": "31",
+      "name": "bool_Veronique",
+      "symbol": "var_bool_veronique"
+    },
+    {
+      "id": "32",
+      "name": "bool_Claude",
+      "symbol": "var_bool_claude"
+    },
+    {
+      "id": "33",
+      "name": "bool_Eve",
+      "symbol": "var_bool_eve"
     }
   ]
 }

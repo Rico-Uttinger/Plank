@@ -4,5 +4,7 @@ cache/
 *.bak
 *.sav
 *.icloud
+*.DS_Store
+.DS_Store
 
 user_settings.gbsres
