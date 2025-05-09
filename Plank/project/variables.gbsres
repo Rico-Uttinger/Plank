@@ -270,6 +270,31 @@
       "id": "5fa52cd0-57cd-414c-8b93-5601c6e9636f__L0",
       "name": "Defeated",
       "symbol": ""
+    },
+    {
+      "id": "39",
+      "name": "Leistung_Gesamt",
+      "symbol": "var_leistung_gesamt"
+    },
+    {
+      "id": "40",
+      "name": "Leistung_Average",
+      "symbol": "var_leistung_average"
+    },
+    {
+      "id": "41",
+      "name": "Moral_Gesamt",
+      "symbol": "var_moral_gesamt"
+    },
+    {
+      "id": "42",
+      "name": "Moral_Average",
+      "symbol": "var_moral_average"
+    },
+    {
+      "id": "43",
+      "name": "Sterne",
+      "symbol": "var_sterne"
     }
   ]
 }
