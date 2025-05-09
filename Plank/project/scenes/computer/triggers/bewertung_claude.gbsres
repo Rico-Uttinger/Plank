@@ -1,0 +1,42 @@
+{
+  "_resourceType": "trigger",
+  "id": "77248789-2b72-4312-8fac-532efb79ffe8",
+  "name": "Bewertung Claude",
+  "prefabId": "",
+  "x": 2,
+  "y": 2,
+  "symbol": "trigger_19",
+  "prefabScriptOverrides": {},
+  "width": 6,
+  "height": 3,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Claude's Leistung: $21$.\nClaude's Moral: $22$."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "3448cb37-e8e2-4cec-8142-6afdd72a3ffc"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}

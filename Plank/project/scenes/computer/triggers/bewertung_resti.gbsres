@@ -1,0 +1,15 @@
+{
+  "_resourceType": "trigger",
+  "id": "706e7571-650c-4d20-9729-7ab181f9a60b",
+  "name": "Bewertung Resti",
+  "prefabId": "",
+  "x": 2,
+  "y": 11,
+  "symbol": "trigger_26",
+  "prefabScriptOverrides": {},
+  "width": 6,
+  "height": 3,
+  "script": [],
+  "leaveScript": [],
+  "_index": 6
+}

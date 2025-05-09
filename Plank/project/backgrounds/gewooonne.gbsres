@@ -1,6 +1,6 @@
 {
   "_resourceType": "background",
-  "id": "530d1530-c7d0-4220-b31e-6adaa7a6db0f",
+  "id": "ba7da125-4f4d-4598-8e61-7f6fd4d5758a",
   "name": "gewooonne",
   "symbol": "bg_gewooonne",
   "width": 20,
@@ -8,5 +8,5 @@
   "imageWidth": 160,
   "imageHeight": 144,
   "filename": "gewooonne.png",
-  "tileColors": ""
+  "tileColors": "01168+"
 }
