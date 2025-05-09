@@ -87,21 +87,9 @@
       "command": "EVENT_WAIT",
       "args": {
         "time": 3,
-        "frames": 30,
-        "__collapse": false
+        "frames": 30
       },
       "id": "3cb8de8f-0c64-493b-a90a-11c8e99eea33"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "34",
-        "value": {
-          "type": "false"
-        },
-        "__collapse": false
-      },
-      "id": "5d0ee630-21da-4b10-8060-63e7fc773fd7"
     },
     {
       "command": "EVENT_IF",
