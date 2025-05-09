@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "f092bb15-6e44-4921-b03c-cc72f6ff0fbd",
-  "_index": 16,
+  "_index": 7,
   "name": "town/Resti2",
   "backgroundId": "b340b9a2-2865-4e05-91c0-148846a693c8",
   "tilesetId": "",
@@ -13,7 +13,7 @@
   "collisions": "003d+0f12+002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f8+002+0f8+009+0f!002+0f!0010+0f4+008+",
   "autoFadeSpeed": 1,
   "symbol": "scene_0",
-  "x": 1312,
+  "x": 808,
   "y": 80,
   "script": [
     {

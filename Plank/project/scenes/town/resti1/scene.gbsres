@@ -1,11 +1,11 @@
 {
   "_resourceType": "scene",
   "id": "4ebc5249-2878-434c-aab7-091dec325fc6",
-  "_index": 9,
+  "_index": 2,
   "type": "TOPDOWN",
   "name": "town/Resti1",
   "symbol": "scene_17",
-  "x": 1312,
+  "x": 808,
   "y": 272,
   "width": 20,
   "height": 18,
@@ -18,9 +18,16 @@
     {
       "command": "EVENT_MUSIC_STOP",
       "args": {
-        "__collapse": true
+        "__collapse": false
       },
       "id": "919e8390-3d03-4bfb-ba3e-5119c1bff417"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "680daa33-92d8-4cbb-a022-b2b10894dd4d"
+      },
+      "id": "4cca5aaf-1fac-4439-95a6-428fe4671ec8"
     },
     {
       "command": "EVENT_IF",

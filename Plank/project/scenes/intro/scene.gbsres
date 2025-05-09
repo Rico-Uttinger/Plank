@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "9e62a2aa-b0b7-4ae7-9d3e-57632d4e31db",
-  "_index": 14,
+  "_index": 5,
   "name": "Intro",
   "backgroundId": "40fda058-df90-4205-a239-fe77bce4fa79",
   "tilesetId": "",
@@ -16,6 +16,14 @@
   "x": 520,
   "y": 80,
   "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "a9c05136-c8ff-4f38-bd3a-90c6c9857b87",
+        "__comment": true
+      },
+      "id": "61610e43-ff67-4a13-a436-24588c66f648"
+    },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {

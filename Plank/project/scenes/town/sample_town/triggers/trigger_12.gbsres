@@ -1,113 +1,159 @@
 {
   "_resourceType": "trigger",
-  "id": "12bc2515-957f-4481-a425-2dd7fefd1847",
+  "id": "dafc3710-6d6c-464f-9619-fb8235a2c238",
   "_index": 11,
-  "symbol": "trigger_12",
+  "symbol": "trigger_13",
   "prefabId": "",
   "name": "",
-  "x": 47,
-  "y": 20,
-  "width": 6,
-  "height": 1,
+  "x": 42,
+  "y": 42,
+  "width": 2,
+  "height": 10,
   "prefabScriptOverrides": {},
   "script": [
     {
-      "id": "1997bb15-926b-4f8c-a7da-96213438869f",
-      "command": "EVENT_IF",
+      "id": "89c1617c-808b-4295-8e8f-fae839d0be44",
+      "command": "EVENT_GROUP",
       "args": {
-        "variable": "10",
-        "__collapseElse": false,
-        "condition": {
-          "type": "eq",
-          "valueA": {
-            "type": "variable",
-            "value": "10"
-          },
-          "valueB": {
-            "type": "false"
-          }
-        }
+        "__label": "Flower Quest"
       },
       "children": {
         "true": [
           {
-            "id": "f6dfc328-da11-4aba-9bc6-06599075703c",
-            "command": "EVENT_IF_ACTOR_AT_POSITION",
+            "id": "22bb46dc-6c92-432a-a70c-d992849b4e04",
+            "command": "EVENT_ACTOR_ACTIVATE",
             "args": {
-              "actorId": "8e54ced2-d4e9-4eb9-9dcf-b6122f973ace",
+              "actorId": "c4058748-207b-4686-9668-bff37e5bceea"
+            }
+          },
+          {
+            "id": "654c9318-b8cd-4d44-8294-5d690a9a22b9",
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "c4058748-207b-4686-9668-bff37e5bceea",
               "x": {
                 "type": "number",
-                "value": 36
+                "value": 0
               },
               "y": {
                 "type": "number",
-                "value": 24
+                "value": 1
               },
-              "__collapseElse": false,
-              "__collapse": false
-            },
-            "children": {
-              "true": [],
-              "false": [
-                {
-                  "id": "0b3e9e70-e164-4b04-877d-a9bd7e3ee5ae",
-                  "command": "EVENT_ACTOR_SET_DIRECTION",
-                  "args": {
-                    "actorId": "8e54ced2-d4e9-4eb9-9dcf-b6122f973ace",
-                    "direction": {
-                      "type": "direction",
-                      "value": "up"
-                    }
-                  }
-                },
-                {
-                  "id": "1a2e750b-48e3-4869-9c87-ee3debb0d1d1",
-                  "command": "EVENT_ACTOR_EMOTE",
-                  "args": {
-                    "actorId": "8e54ced2-d4e9-4eb9-9dcf-b6122f973ace",
-                    "emoteId": "c8d5eadd-dced-43df-8367-1e4d9bfc7923"
-                  }
-                },
-                {
-                  "id": "c2ae553c-e8ae-4318-983b-ea09b578129a",
-                  "command": "EVENT_ACTOR_MOVE_TO",
-                  "args": {
-                    "actorId": "8e54ced2-d4e9-4eb9-9dcf-b6122f973ace",
-                    "x": {
-                      "type": "number",
-                      "value": 42
-                    },
-                    "y": {
-                      "type": "number",
-                      "value": 30
-                    },
-                    "moveType": "vertical",
-                    "useCollisions": false
-                  }
-                },
-                {
-                  "id": "8874972b-037c-4a32-9ace-553d2a17e98a",
-                  "command": "EVENT_ACTOR_MOVE_TO",
-                  "args": {
-                    "actorId": "8e54ced2-d4e9-4eb9-9dcf-b6122f973ace",
-                    "x": {
-                      "type": "number",
-                      "value": 36
-                    },
-                    "y": {
-                      "type": "number",
-                      "value": 24
-                    },
-                    "moveType": "horizontal",
-                    "useCollisions": false,
-                    "__collapse": false
-                  }
-                }
-              ]
+              "moveType": "horizontal",
+              "useCollisions": false
+            }
+          },
+          {
+            "id": "555ccd20-b4fd-4076-8405-a783a551a83a",
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "c4058748-207b-4686-9668-bff37e5bceea",
+              "direction": {
+                "type": "direction",
+                "value": "left"
+              }
+            }
+          },
+          {
+            "id": "c3cba2b3-d7fe-43e6-ae02-efb884036e1b",
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "c4058748-207b-4686-9668-bff37e5bceea",
+              "emoteId": "c8d5eadd-dced-43df-8367-1e4d9bfc7923"
+            }
+          },
+          {
+            "id": "accaff96-22e4-4253-8753-9acecbdfd0ca",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "HEY!!!\nKEEP OFF MY\nFLOWERS!"
+              ],
+              "avatarId": ""
+            }
+          },
+          {
+            "id": "23f6fc04-440e-4d51-acff-3b1e8653c3f9",
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": -2
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            }
+          },
+          {
+            "id": "17e03201-fa20-446c-b6f6-e587ceed3809",
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "player",
+              "direction": {
+                "type": "direction",
+                "value": "right"
+              }
+            }
+          },
+          {
+            "id": "9ea793c7-38cd-4313-995a-8ac485e99beb",
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "c4058748-207b-4686-9668-bff37e5bceea",
+              "direction": {
+                "type": "direction",
+                "value": "up"
+              }
+            }
+          },
+          {
+            "id": "dcff18de-a435-4194-b00b-ccc5ef4b13f3",
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "c4058748-207b-4686-9668-bff37e5bceea",
+              "emoteId": "62ecc274-3e8e-4f49-9da0-32ccab871f1f"
+            }
+          },
+          {
+            "id": "b499e285-3bc9-45b1-96ce-9f29f46a3e54",
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "c4058748-207b-4686-9668-bff37e5bceea",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": -1
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            }
+          },
+          {
+            "id": "31ddde01-9911-4145-9cd6-4b35c2635136",
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "c4058748-207b-4686-9668-bff37e5bceea"
+            }
+          },
+          {
+            "id": "2ccc46ed-fda5-4861-827f-cff47764b1e0",
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "6",
+              "value": {
+                "type": "true"
+              }
             }
           }
-        ],
-        "false": []
+        ]
       }
     }
   ],

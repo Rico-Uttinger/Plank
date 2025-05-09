@@ -1,12 +1,12 @@
 {
   "_resourceType": "scene",
   "id": "c22cad6f-1191-4623-911d-1ec9a7b52fe6",
-  "_index": 5,
+  "_index": 0,
   "type": "POINTNCLICK",
   "name": "Computer",
   "symbol": "scene_player_s_house",
-  "x": 1536,
-  "y": 280,
+  "x": 1032,
+  "y": 272,
   "width": 20,
   "height": 18,
   "backgroundId": "37969c23-6552-42a2-ad9c-60fd94b903b6",
@@ -75,7 +75,7 @@
       "id": "646647bb-e8b8-41cb-add9-e9d3531aceac",
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "326b3cbc-1e3d-4a43-846f-c962ece2c317",
+        "musicId": "351b0d8f-9f01-442e-9138-237703f03438",
         "loop": true
       }
     }
