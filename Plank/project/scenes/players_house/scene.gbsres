@@ -1,24 +1,29 @@
 {
   "_resourceType": "scene",
-  "id": "51d42da5-b7ce-48b4-a435-1902368d6d5c",
-  "_index": 5,
-  "type": "TOPDOWN",
-  "name": "space/Deep Space",
-  "symbol": "scene_deep_space",
-  "x": 722,
-  "y": 928,
-  "width": 32,
-  "height": 32,
-  "backgroundId": "40fda058-df90-4205-a239-fe77bce4fa79",
+  "id": "c22cad6f-1191-4623-911d-1ec9a7b52fe6",
+  "_index": 4,
+  "type": "POINTNCLICK",
+  "name": "Player's House",
+  "symbol": "scene_player_s_house",
+  "x": 148,
+  "y": 526,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "0af9ba31-7864-4664-9603-b211dc0f3793",
   "tilesetId": "",
   "paletteIds": [
-    "d73adccf-4071-4012-b0a6-9c3973a2dc0e"
+    "",
+    "",
+    "",
+    "",
+    "",
+    "default-sprite"
   ],
   "spritePaletteIds": [],
   "autoFadeSpeed": 1,
   "script": [
     {
-      "id": "1a9baf55-a935-4b71-b2af-fcb2f7a395a1",
+      "id": "7b6132c6-bb47-4c09-bc3d-0a33f53c43e7",
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "bc9f67e9-b6f2-4216-b8b6-63505f3b7118",
@@ -27,7 +32,7 @@
       "children": {
         "script": [
           {
-            "id": "c780cce7-e3a8-4121-9b0c-61f84677edc2",
+            "id": "768f30c9-0665-4777-b7d0-e743551a826a",
             "command": "EVENT_SET_INPUT_SCRIPT",
             "args": {
               "input": [
@@ -38,12 +43,12 @@
             "children": {
               "true": [
                 {
-                  "id": "acb6d4bd-5b28-4f5c-8611-21691bf0639b",
+                  "id": "ab12dde3-3225-4639-9b3f-b929f6f8eefe",
                   "command": "EVENT_SCENE_PUSH_STATE",
                   "args": {}
                 },
                 {
-                  "id": "d17e36d6-e3d1-467b-9ebb-13d3b6762372",
+                  "id": "4fd4f466-8ab5-4fb8-b477-e2e64071abaf",
                   "command": "EVENT_SWITCH_SCENE",
                   "args": {
                     "sceneId": "fd223a5f-7148-4705-98a7-b0ef56cb5c74",
@@ -66,10 +71,10 @@
       }
     },
     {
-      "id": "5e70f3c6-2f91-41e2-aa09-46a6097680cf",
+      "id": "646647bb-e8b8-41cb-add9-e9d3531aceac",
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "46f8a9fd-46ca-4fbf-944c-4f981c7f3bde",
+        "musicId": "326b3cbc-1e3d-4a43-846f-c962ece2c317",
         "loop": true
       }
     }
@@ -77,5 +82,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "00400+"
+  "collisions": ""
 }

@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "4912bee2-387a-472f-ae4f-6679b6149517",
-  "_index": 15,
+  "_index": 13,
   "type": "TOPDOWN",
   "name": "ui/Title Screen",
   "symbol": "scene_title_screen",
@@ -20,7 +20,9 @@
       "command": "EVENT_MUSIC_PLAY",
       "args": {
         "musicId": "4f144f63-6005-4e99-b570-92a526201bd3",
-        "loop": false
+        "loop": false,
+        "__comment": true,
+        "__collapse": true
       }
     },
     {
@@ -80,17 +82,17 @@
                   "id": "a5dddc76-e5fe-424a-9b2b-1ad1834acefb",
                   "command": "EVENT_SWITCH_SCENE",
                   "args": {
-                    "sceneId": "94c18861-b352-4f49-a64d-52f2e3415077",
+                    "sceneId": "9e62a2aa-b0b7-4ae7-9d3e-57632d4e31db",
                     "x": {
                       "type": "number",
-                      "value": 18
+                      "value": 0
                     },
                     "y": {
                       "type": "number",
-                      "value": 45
+                      "value": 0
                     },
                     "direction": "right",
-                    "fadeSpeed": "4"
+                    "fadeSpeed": 4
                   }
                 }
               ],
@@ -116,7 +118,8 @@
                         "id": "06b8f464-996e-4c51-8918-50d62bb0c02d",
                         "command": "EVENT_TEXT",
                         "args": {
-                          "text": "No Save Data\nFound..."
+                          "text": "No Save Data\nFound...",
+                          "__section": "text"
                         }
                       }
                     ]
