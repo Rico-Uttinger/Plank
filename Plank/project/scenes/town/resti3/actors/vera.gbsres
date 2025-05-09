@@ -667,6 +667,304 @@
               "__collapse": true
             },
             "id": "01992db5-b831-4a4b-ac4c-fe8e750a5594"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "36"
+                },
+                "valueB": {
+                  "type": "false"
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "gte",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "25"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 100
+                      }
+                    },
+                    "__collapseElse": true,
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Vera hat aufgrund\nihrer Leistungen \neine andere Stelle \ngefunden."
+                          ],
+                          "__section": "text",
+                          "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": true
+                        },
+                        "id": "3a360b4c-4f83-4486-8c86-babeeb54b4bb"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_DEACTIVATE",
+                        "args": {
+                          "actorId": "8f7c39f3-4295-437c-a095-d8f3ff2a192c",
+                          "__collapse": true
+                        },
+                        "id": "da3414e1-1fb5-440b-9132-21097ec6ac38"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "36",
+                          "value": {
+                            "type": "true"
+                          },
+                          "__collapse": true
+                        },
+                        "id": "1354f085-db59-41f5-ad97-b66fa90e5931"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "7a34a0da-2872-46c7-9ca6-b3b69bda6391"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "lte",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "25"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": -100
+                      }
+                    },
+                    "__collapseElse": true,
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Die Leistung von \nVera war mangel-\nhaft, also wurde sie\nentlassen."
+                          ],
+                          "__section": "text",
+                          "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": true
+                        },
+                        "id": "4323a1ae-af60-4f71-bafc-008d97d9a8ca"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_DEACTIVATE",
+                        "args": {
+                          "actorId": "8f7c39f3-4295-437c-a095-d8f3ff2a192c",
+                          "__collapse": true
+                        },
+                        "id": "e93971ad-33f5-4ace-add9-87934ee2fbf4"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "36",
+                          "value": {
+                            "type": "true"
+                          },
+                          "__collapse": true
+                        },
+                        "id": "dfdd0f26-3b09-48b7-b104-338d8f4ca4b3"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "21831856-d703-45aa-b7a5-5b1bed6a1002"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "gte",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "26"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 100
+                      }
+                    },
+                    "__collapseElse": true,
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Vera fühlte sich so\nerfüllt, dass sie\nNeues entdecken\nwollte."
+                          ],
+                          "__section": "text",
+                          "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": true
+                        },
+                        "id": "205fa52e-17e1-4707-9957-98226a0d1dcd"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_DEACTIVATE",
+                        "args": {
+                          "actorId": "8f7c39f3-4295-437c-a095-d8f3ff2a192c",
+                          "__collapse": true
+                        },
+                        "id": "30163268-a185-4272-bbb8-d7f039ec37ba"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "36",
+                          "value": {
+                            "type": "true"
+                          },
+                          "__collapse": true
+                        },
+                        "id": "465e67db-7dad-4d50-92e9-cb6bbfc588a3"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "8862eb3c-b89d-4d23-8ed3-9db7c5ad985d"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "lte",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "26"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": -100
+                      }
+                    },
+                    "__collapseElse": true,
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Vera war so\ngestresst, dass sie\ngekündigt hat."
+                          ],
+                          "__section": "text",
+                          "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": false
+                        },
+                        "id": "6fa0b017-9a08-4a2e-89d3-66ccc68a56f7"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_DEACTIVATE",
+                        "args": {
+                          "actorId": "8f7c39f3-4295-437c-a095-d8f3ff2a192c",
+                          "__collapse": false
+                        },
+                        "id": "d58272ca-fafe-4927-9cc7-66da42e91505"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "36",
+                          "value": {
+                            "type": "true"
+                          },
+                          "__collapse": false
+                        },
+                        "id": "7aa0ea89-d32c-4798-9210-0dafc67923ce"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "09f05a7b-d126-44ef-a292-21c1f5af5335"
+                }
+              ],
+              "false": []
+            },
+            "id": "8b9c014c-e7cb-4deb-a0e0-ab61343d4da2"
           }
         ],
         "false": []
@@ -681,289 +979,13 @@
         "variable": "31",
         "value": {
           "type": "false"
-        }
+        },
+        "__comment": true
       },
       "id": "8ae76c8c-37fb-49dc-9d65-fc04dbcb1023"
     }
   ],
-  "updateScript": [
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "gte",
-          "valueA": {
-            "type": "variable",
-            "value": "25"
-          },
-          "valueB": {
-            "type": "number",
-            "value": 100
-          }
-        },
-        "__collapseElse": true,
-        "__collapse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Vera hat aufgrund\nihrer Leistungen \neine andere Stelle \ngefunden."
-              ],
-              "__section": "text",
-              "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": true
-            },
-            "id": "420b5543-a3b1-416a-b2db-2b18ce92d1cf"
-          },
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "4177ba4e-e396-40a4-a0cc-3e8b35b5f445",
-              "__collapse": true
-            },
-            "id": "34f21686-32ee-4bfc-b6f5-a5c2e031e6c8"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "36",
-              "value": {
-                "type": "true"
-              },
-              "__collapse": true
-            },
-            "id": "2fb7468c-6931-4259-8f14-1fac043631d1"
-          }
-        ],
-        "false": []
-      },
-      "id": "33585a03-aa89-42e0-a973-f7fd3f15afcd"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "lte",
-          "valueA": {
-            "type": "variable",
-            "value": "25"
-          },
-          "valueB": {
-            "type": "number",
-            "value": -100
-          }
-        },
-        "__collapseElse": true,
-        "__collapse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Die Leistung von \nVera war mangel-\nhaft, also wurde sie\nentlassen."
-              ],
-              "__section": "text",
-              "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": true
-            },
-            "id": "7861d1a1-757d-494c-a095-d576e41702dd"
-          },
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "4177ba4e-e396-40a4-a0cc-3e8b35b5f445",
-              "__collapse": true
-            },
-            "id": "e616c6e9-cbb4-4ebf-b54a-467df92b24cc"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "36",
-              "value": {
-                "type": "true"
-              },
-              "__collapse": true
-            },
-            "id": "e3e2d181-9a67-4d90-9d0c-9a927511b769"
-          }
-        ],
-        "false": []
-      },
-      "id": "1df16fb9-7ee7-4a2e-88bc-8de0f5354761"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "gte",
-          "valueA": {
-            "type": "variable",
-            "value": "26"
-          },
-          "valueB": {
-            "type": "number",
-            "value": 100
-          }
-        },
-        "__collapseElse": true,
-        "__collapse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Vera fühlte sich so\nerfüllt, dass sie\nNeues entdecken\nwollte."
-              ],
-              "__section": "text",
-              "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": true
-            },
-            "id": "101233fd-cd8c-41db-bdd6-7f9728be72a8"
-          },
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "4177ba4e-e396-40a4-a0cc-3e8b35b5f445",
-              "__collapse": true
-            },
-            "id": "5cb016b1-7ecf-4b8f-bafc-a45eb6828fed"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "36",
-              "value": {
-                "type": "true"
-              },
-              "__collapse": true
-            },
-            "id": "2316dec5-2661-4885-844f-26c42fa44b93"
-          }
-        ],
-        "false": []
-      },
-      "id": "7dc1bb64-fc89-4a3b-972c-bfd8b0bcdc2a"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "lte",
-          "valueA": {
-            "type": "variable",
-            "value": "26"
-          },
-          "valueB": {
-            "type": "number",
-            "value": -100
-          }
-        },
-        "__collapseElse": true,
-        "__collapse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Vera war so\ngestresst, dass sie\ngekündigt hat."
-              ],
-              "__section": "text",
-              "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": true
-            },
-            "id": "bf6f3968-37eb-4490-9070-2978c4433456"
-          },
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "4177ba4e-e396-40a4-a0cc-3e8b35b5f445",
-              "__collapse": true
-            },
-            "id": "c4c889ce-018d-4801-9667-d28388fee81d"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "36",
-              "value": {
-                "type": "true"
-              },
-              "__collapse": true
-            },
-            "id": "c7c69180-344e-4544-942b-a044103adf43"
-          }
-        ],
-        "false": []
-      },
-      "id": "3ba7b033-4e51-455f-affb-f10a9373da23"
-    }
-  ],
+  "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],

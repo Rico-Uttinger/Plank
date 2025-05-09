@@ -56,7 +56,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "f9d37e42-188f-4728-b9a1-2a7188623d53"
           },
@@ -105,7 +105,7 @@
               "option8": "",
               "cancelOnB": true,
               "layout": "dialogue",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "feb8785e-72bb-47a9-a055-e66c3116e018"
           },
@@ -124,7 +124,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -406,7 +406,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -675,6 +675,305 @@
               "__collapse": true
             },
             "id": "e0c04748-a0b5-4165-bf19-af92267771f1"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "38"
+                },
+                "valueB": {
+                  "type": "false"
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "gte",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "23"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 100
+                      }
+                    },
+                    "__collapseElse": true,
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Eve hat aufgrund\nihrer Leistungen \neine andere Stelle \ngefunden."
+                          ],
+                          "__section": "text",
+                          "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": true
+                        },
+                        "id": "da62eeb2-8084-4820-b0b9-7873461c2f23"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_DEACTIVATE",
+                        "args": {
+                          "actorId": "fc8fac97-4228-457c-92e1-5394981bf2cf",
+                          "__collapse": true
+                        },
+                        "id": "d5464ca1-d428-4dc2-9ae4-8c3feb0c27ae"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "38",
+                          "value": {
+                            "type": "true"
+                          },
+                          "__collapse": true
+                        },
+                        "id": "b4247624-fe66-43f0-9421-0d82710cb9f3"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "dc7ae507-c5a9-437a-8f2f-771c736a316b"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "lte",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "23"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": -100
+                      }
+                    },
+                    "__collapseElse": true,
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Die Leistung von \nEve war mangel-\nhaft, also wurde sie\nentlassen."
+                          ],
+                          "__section": "text",
+                          "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": true
+                        },
+                        "id": "47ea1c2b-83f2-4688-ac34-b101c11f437c"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_DEACTIVATE",
+                        "args": {
+                          "actorId": "fc8fac97-4228-457c-92e1-5394981bf2cf",
+                          "__collapse": true
+                        },
+                        "id": "874d4a96-bd0f-4cc5-b84d-e7d9daf75638"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "38",
+                          "value": {
+                            "type": "true"
+                          },
+                          "__collapse": true
+                        },
+                        "id": "eded17e5-f103-4f14-809b-84f9b4947a2c"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "9b12c699-bad2-4ee7-9e0b-5675380a418c"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "gte",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "24"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 100
+                      }
+                    },
+                    "__collapseElse": true,
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Eve fühlte sich so\nerfüllt, dass sie\nNeues entdecken\nwollte."
+                          ],
+                          "__section": "text",
+                          "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": true
+                        },
+                        "id": "e80cf5cb-c6f9-4f3d-9b61-06d935ee6c12"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_DEACTIVATE",
+                        "args": {
+                          "actorId": "fc8fac97-4228-457c-92e1-5394981bf2cf",
+                          "__collapse": true
+                        },
+                        "id": "be8db2fc-63da-4e7b-8961-1621ae551a6d"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "38",
+                          "value": {
+                            "type": "true"
+                          },
+                          "__collapse": true
+                        },
+                        "id": "7b92580e-03c1-49c7-a32a-396ea4295317"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "3ab91fbf-b5dc-46e9-9d29-5db9e583e6cf"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "lte",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "24"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": -100
+                      }
+                    },
+                    "__collapseElse": true,
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Eve war so\ngestresst, dass sie\ngekündigt hat."
+                          ],
+                          "__section": "text",
+                          "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": false
+                        },
+                        "id": "bbf61d44-5f6c-4f60-a97f-7f091fe08e47"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_DEACTIVATE",
+                        "args": {
+                          "actorId": "fc8fac97-4228-457c-92e1-5394981bf2cf",
+                          "__collapse": true
+                        },
+                        "id": "e0656752-dcf6-4ca9-bcac-bd3f5f43a53c"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "38",
+                          "value": {
+                            "type": "true"
+                          },
+                          "__collapse": true
+                        },
+                        "id": "6f68c599-a860-4955-bbc2-450593f9114e"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "0e17bc64-ea7d-4e40-976c-484450dd18a5"
+                }
+              ],
+              "false": []
+            },
+            "id": "59d3f935-0c2a-4c1d-9d60-91d93e346159"
           }
         ],
         "false": []
@@ -689,289 +988,13 @@
         "variable": "33",
         "value": {
           "type": "false"
-        }
+        },
+        "__comment": true
       },
       "id": "b859b797-ca9c-4e3b-a79f-054b6d55268e"
     }
   ],
-  "updateScript": [
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "gte",
-          "valueA": {
-            "type": "variable",
-            "value": "23"
-          },
-          "valueB": {
-            "type": "number",
-            "value": 100
-          }
-        },
-        "__collapseElse": true,
-        "__collapse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Eve hat aufgrund\nihrer Leistungen \neine andere Stelle \ngefunden."
-              ],
-              "__section": "text",
-              "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": true
-            },
-            "id": "6de9aa97-7718-4bd5-947a-4b4c58fabab9"
-          },
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "0b37f31a-a0e4-42df-8eab-eeeb88711f46",
-              "__collapse": true
-            },
-            "id": "4b68c703-530a-44ee-a605-5f4a3fd76335"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "38",
-              "value": {
-                "type": "true"
-              },
-              "__collapse": true
-            },
-            "id": "41afd395-4471-4e77-a24b-79a77eff4af6"
-          }
-        ],
-        "false": []
-      },
-      "id": "0fa65ef1-3c11-4913-867b-64d4d6b3cd10"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "lte",
-          "valueA": {
-            "type": "variable",
-            "value": "23"
-          },
-          "valueB": {
-            "type": "number",
-            "value": -100
-          }
-        },
-        "__collapseElse": true,
-        "__collapse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Die Leistung von \nEve war mangel-\nhaft, also wurde sie\nentlassen."
-              ],
-              "__section": "text",
-              "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": true
-            },
-            "id": "2deea2b4-d30e-478c-a3f9-386450274b4b"
-          },
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "0b37f31a-a0e4-42df-8eab-eeeb88711f46",
-              "__collapse": true
-            },
-            "id": "0c00511b-8cf5-44d6-81a6-4a2a8500e48b"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "38",
-              "value": {
-                "type": "true"
-              },
-              "__collapse": true
-            },
-            "id": "ef750e98-5962-48ba-bbd7-765d003757f3"
-          }
-        ],
-        "false": []
-      },
-      "id": "78371121-5f27-480e-89fd-d011c9c93915"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "gte",
-          "valueA": {
-            "type": "variable",
-            "value": "24"
-          },
-          "valueB": {
-            "type": "number",
-            "value": 100
-          }
-        },
-        "__collapseElse": true,
-        "__collapse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Eve fühlte sich so\nerfüllt, dass sie\nNeues entdecken\nwollte."
-              ],
-              "__section": "text",
-              "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": true
-            },
-            "id": "e05dc373-96d8-4854-b1c6-e315043b0ac8"
-          },
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "0b37f31a-a0e4-42df-8eab-eeeb88711f46",
-              "__collapse": true
-            },
-            "id": "1f5109f3-49e2-40e8-b697-1e92ca514ded"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "38",
-              "value": {
-                "type": "true"
-              },
-              "__collapse": true
-            },
-            "id": "f1c4d0e8-406f-4820-8b95-ce5efb9931b4"
-          }
-        ],
-        "false": []
-      },
-      "id": "f8975e5f-7b61-4313-a869-dc0c8c34154b"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "lte",
-          "valueA": {
-            "type": "variable",
-            "value": "24"
-          },
-          "valueB": {
-            "type": "number",
-            "value": -100
-          }
-        },
-        "__collapseElse": true,
-        "__collapse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Eve war so\ngestresst, dass sie\ngekündigt hat."
-              ],
-              "__section": "text",
-              "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": true
-            },
-            "id": "01f2df68-4550-444c-b9e5-6b6257f06a2b"
-          },
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "0b37f31a-a0e4-42df-8eab-eeeb88711f46",
-              "__collapse": true
-            },
-            "id": "355051e5-1d1a-4283-9eee-26e7a8d40543"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "38",
-              "value": {
-                "type": "true"
-              },
-              "__collapse": true
-            },
-            "id": "7bef348c-b573-42ab-93b8-151e3fbd6df5"
-          }
-        ],
-        "false": []
-      },
-      "id": "cc9bdd9f-45fa-491a-886d-1225d3593119"
-    }
-  ],
+  "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],

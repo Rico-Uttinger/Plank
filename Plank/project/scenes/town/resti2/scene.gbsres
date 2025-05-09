@@ -13,8 +13,8 @@
   "collisions": "0028+0f!002+0f11+003c+0f3+003+0fa+006+0f!003+0fa+004+0f3+0025+0f2+0013+0f!0013+0f3+0010+0f4+0060+",
   "autoFadeSpeed": 1,
   "symbol": "scene_0",
-  "x": 1184,
-  "y": 88,
+  "x": 1000,
+  "y": 96,
   "script": [
     {
       "command": "EVENT_MUSIC_STOP",
@@ -53,7 +53,7 @@
             "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
               "actorId": "3f793ef7-355f-493e-9ea1-7224d3cab96c",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "388484ff-73bd-439a-9fc9-456df1ed07a1"
           }

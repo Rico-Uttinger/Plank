@@ -184,7 +184,7 @@
     {
       "id": "36",
       "name": "Hidden_Vera",
-      "symbol": "var_hidden_vera"
+      "symbol": "var_hidden_vera_0"
     },
     {
       "id": "37",
@@ -300,6 +300,11 @@
       "id": "5fa52cd0-57cd-414c-8b93-5601c6e9636f__L0",
       "name": "Defeated",
       "symbol": ""
+    },
+    {
+      "id": "45",
+      "name": "Anzahl_Mitarbeiter",
+      "symbol": "var_anzahl_mitarbeiter"
     }
   ]
 }

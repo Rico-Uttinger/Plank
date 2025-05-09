@@ -56,7 +56,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "256f2919-86f7-4e38-92e6-2fa236eecd23"
           },
@@ -71,7 +71,7 @@
               "minValue": "0",
               "maxValue": "32767",
               "clamp": false,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "b0eeecf9-0221-4440-b59d-863363e6bb8f"
           },
@@ -86,7 +86,7 @@
               "minValue": "0",
               "maxValue": "32767",
               "clamp": false,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "4458ecaf-d533-44e3-94b1-b8728f1472ac"
           },
@@ -124,7 +124,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -399,7 +399,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -676,21 +676,297 @@
                 "type": "eq",
                 "valueA": {
                   "type": "variable",
-                  "value": "34"
+                  "value": "37"
                 },
                 "valueB": {
-                  "type": "number",
-                  "value": 1
+                  "type": "false"
                 }
               },
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
-              "true": [],
+              "true": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "gte",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "21"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 100
+                      }
+                    },
+                    "__collapseElse": true,
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Claude hat aufgrund\nseiner Leistungen \neine andere Stelle \ngefunden."
+                          ],
+                          "__section": "text",
+                          "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": true
+                        },
+                        "id": "6cbb6241-445e-4c06-8221-5b4cf9099a9a"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_DEACTIVATE",
+                        "args": {
+                          "actorId": "ade5e704-9b30-4e76-8c37-74220f7e62c4",
+                          "__collapse": true
+                        },
+                        "id": "3f296b77-8e50-4f9c-b9d0-670b3af0bc4f"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "37",
+                          "value": {
+                            "type": "true"
+                          },
+                          "__collapse": true
+                        },
+                        "id": "78b8ec9e-2e7f-4876-8b79-2e3dc790bfe6"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "62243fb7-bc52-4f56-8fa1-d2dbd2b560ca"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "lte",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "21"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": -100
+                      }
+                    },
+                    "__collapseElse": true,
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Die Leistung von \nClaude war mangel-\nhaft, also wurde er \nentlassen."
+                          ],
+                          "__section": "text",
+                          "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": true
+                        },
+                        "id": "1ea82620-e609-4277-bb8b-08be5583d2a4"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_DEACTIVATE",
+                        "args": {
+                          "actorId": "ade5e704-9b30-4e76-8c37-74220f7e62c4",
+                          "__collapse": true
+                        },
+                        "id": "86529b41-8b49-45a7-879b-6b699ee9a92e"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "37",
+                          "value": {
+                            "type": "true"
+                          },
+                          "__collapse": true
+                        },
+                        "id": "8e0c352a-c56d-4296-97c4-9d33835920f7"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "0eae0c20-61d3-44f0-9a45-a55d3a78a755"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "gte",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "22"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 100
+                      }
+                    },
+                    "__collapseElse": true,
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Claude fühlte sich so\nerfüllt, dass er\nNeues entdecken\nwollte."
+                          ],
+                          "__section": "text",
+                          "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": true
+                        },
+                        "id": "b17a5534-1a67-445d-9dbb-edddf859caa4"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_DEACTIVATE",
+                        "args": {
+                          "actorId": "ade5e704-9b30-4e76-8c37-74220f7e62c4",
+                          "__collapse": true
+                        },
+                        "id": "6cb24c71-fe58-4355-9f91-de032440b605"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "37",
+                          "value": {
+                            "type": "true"
+                          },
+                          "__collapse": true
+                        },
+                        "id": "dc8cdb53-e282-4e03-802c-97e8b5d2d563"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "bc49cb81-8edd-42a4-a3ad-efa64ba483e9"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "lte",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "22"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": -100
+                      }
+                    },
+                    "__collapseElse": true,
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Claude war so\ngestresst, dass er\ngekündigt hat."
+                          ],
+                          "__section": "text",
+                          "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": true
+                        },
+                        "id": "f740813b-fca3-4d08-bcb8-2ba9c2865c8f"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_DEACTIVATE",
+                        "args": {
+                          "actorId": "ade5e704-9b30-4e76-8c37-74220f7e62c4",
+                          "__collapse": true
+                        },
+                        "id": "bea41864-affd-49a9-a71e-2985eb11329b"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "37",
+                          "value": {
+                            "type": "true"
+                          },
+                          "__collapse": true
+                        },
+                        "id": "6926a3e0-fe9a-437d-ab8a-7edeb288b611"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "7176a3a9-2ce1-4645-811b-7acae35e1c44"
+                }
+              ],
               "false": []
             },
-            "id": "1d87c7b0-8326-4905-a97c-0fbf13ddbb2c"
+            "id": "fa7c6dc3-c90b-4270-8df1-e10d4acf440c"
           }
         ],
         "false": []
@@ -705,289 +981,13 @@
         "variable": "32",
         "value": {
           "type": "false"
-        }
+        },
+        "__comment": true
       },
       "id": "783270d7-675d-4ea4-9aa4-b6b7933543b0"
     }
   ],
-  "updateScript": [
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "gte",
-          "valueA": {
-            "type": "variable",
-            "value": "21"
-          },
-          "valueB": {
-            "type": "number",
-            "value": 100
-          }
-        },
-        "__collapseElse": true,
-        "__collapse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Claude hat aufgrund\nseiner Leistungen \neine andere Stelle \ngefunden."
-              ],
-              "__section": "text",
-              "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": true
-            },
-            "id": "526580af-b081-4e1d-bbdf-2112ef5c3f8b"
-          },
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "d0aa4f81-a2e8-4720-86b1-45a5149b51fa",
-              "__collapse": true
-            },
-            "id": "ae3786c3-b969-44a6-a223-a9a2ae73ca09"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "37",
-              "value": {
-                "type": "true"
-              },
-              "__collapse": true
-            },
-            "id": "54a5145d-1bb5-43b4-b117-fb820263c025"
-          }
-        ],
-        "false": []
-      },
-      "id": "32e9e267-2bcd-4868-96e2-5d2e309db888"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "lte",
-          "valueA": {
-            "type": "variable",
-            "value": "21"
-          },
-          "valueB": {
-            "type": "number",
-            "value": -100
-          }
-        },
-        "__collapseElse": true,
-        "__collapse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Die Leistung von \nClaude war mangel-\nhaft, also wurde er \nentlassen."
-              ],
-              "__section": "text",
-              "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": true
-            },
-            "id": "365981ab-a4e3-4a84-a0ba-cd318a4427f0"
-          },
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "d0aa4f81-a2e8-4720-86b1-45a5149b51fa",
-              "__collapse": true
-            },
-            "id": "5c0b7891-cdaf-49db-bfbc-44ecbdaf6a7f"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "37",
-              "value": {
-                "type": "true"
-              },
-              "__collapse": true
-            },
-            "id": "174d3b6e-0c1c-4f7b-ad76-35d9e77fdd3d"
-          }
-        ],
-        "false": []
-      },
-      "id": "cffbc994-1d57-4a6b-aca1-643d3050230b"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "gte",
-          "valueA": {
-            "type": "variable",
-            "value": "22"
-          },
-          "valueB": {
-            "type": "number",
-            "value": 100
-          }
-        },
-        "__collapseElse": true,
-        "__collapse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Claude fühlte sich so\nerfüllt, dass er\nNeues entdecken\nwollte."
-              ],
-              "__section": "text",
-              "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": true
-            },
-            "id": "daaf6ce8-a2a8-47af-b269-23755bdc7119"
-          },
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "d0aa4f81-a2e8-4720-86b1-45a5149b51fa",
-              "__collapse": true
-            },
-            "id": "757002d4-739e-466d-bb0a-bf20cfb84ea2"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "37",
-              "value": {
-                "type": "true"
-              },
-              "__collapse": true
-            },
-            "id": "9bb9e816-0ad1-4b36-8123-25a92471f868"
-          }
-        ],
-        "false": []
-      },
-      "id": "a3a2164e-f472-45f0-aa90-7515295f0f0b"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "lte",
-          "valueA": {
-            "type": "variable",
-            "value": "22"
-          },
-          "valueB": {
-            "type": "number",
-            "value": -100
-          }
-        },
-        "__collapseElse": true,
-        "__collapse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Claude war so\ngestresst, dass er\ngekündigt hat."
-              ],
-              "__section": "text",
-              "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": true
-            },
-            "id": "944e0654-79f3-41dd-9f1a-48eb6d14cd0d"
-          },
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "d0aa4f81-a2e8-4720-86b1-45a5149b51fa",
-              "__collapse": true
-            },
-            "id": "7d728a88-7dd4-4aee-b4dd-0c92df430530"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "37",
-              "value": {
-                "type": "true"
-              },
-              "__collapse": true
-            },
-            "id": "68d59c6e-d9aa-4b17-a9a3-5bcd52958a4d"
-          }
-        ],
-        "false": []
-      },
-      "id": "787aa022-acc8-494e-940f-43c2bdc038b4"
-    }
-  ],
+  "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],

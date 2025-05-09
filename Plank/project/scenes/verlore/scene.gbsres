@@ -5,8 +5,8 @@
   "type": "TOPDOWN",
   "name": "Verlore",
   "symbol": "scene_14",
-  "x": 1744,
-  "y": 288,
+  "x": 1560,
+  "y": 296,
   "width": 20,
   "height": 18,
   "backgroundId": "641ef649-9513-4264-bbc0-89cd04d7b976",
@@ -26,9 +26,16 @@
       "id": "27cbf823-c3da-4a00-8667-6748a8b48cc0"
     },
     {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "454dd5e1-0d67-4518-910a-b7de3855ca94"
+    },
+    {
       "command": "EVENT_WAIT",
       "args": {
-        "time": 5,
+        "time": 3,
         "frames": 30
       },
       "id": "2a042c82-f573-42dc-9966-d9304253b7fc"

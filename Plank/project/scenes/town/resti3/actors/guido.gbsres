@@ -59,7 +59,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "4b534eaf-4fc3-45f5-b577-62c021b06b26"
           },
@@ -127,7 +127,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -165,7 +165,7 @@
                       }
                     },
                     "__collapseElse": true,
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "children": {
                     "true": [
@@ -402,7 +402,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -671,6 +671,305 @@
               "__collapse": true
             },
             "id": "5a29f103-41e9-46d6-9838-4fac6afeff8d"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "35"
+                },
+                "valueB": {
+                  "type": "false"
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "gte",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "18"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 100
+                      }
+                    },
+                    "__collapseElse": true,
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Guido hat aufgrund\nseiner Leistungen \neine andere Stelle \ngefunden."
+                          ],
+                          "__section": "text",
+                          "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": true
+                        },
+                        "id": "46bf8864-647f-4edd-a5f6-0ac7c833a964"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_DEACTIVATE",
+                        "args": {
+                          "actorId": "8e2d73a9-eaf9-4fa8-a493-854cecf2de8d",
+                          "__collapse": true
+                        },
+                        "id": "52eefbe7-12dc-4053-9e33-3bd935c8b37b"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "35",
+                          "value": {
+                            "type": "true"
+                          },
+                          "__collapse": true
+                        },
+                        "id": "6fca5393-0624-4926-9b41-6e0033afc9f6"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "db776226-7904-4c7f-8177-c65f82012176"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "lte",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "18"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": -100
+                      }
+                    },
+                    "__collapseElse": true,
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Die Leistung von \nGuido war mangel-\nhaft, also wurde er \nentlassen."
+                          ],
+                          "__section": "text",
+                          "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": true
+                        },
+                        "id": "0f7f5198-a177-4a04-b1c2-ab53dbe231fe"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_DEACTIVATE",
+                        "args": {
+                          "actorId": "8e2d73a9-eaf9-4fa8-a493-854cecf2de8d",
+                          "__collapse": true
+                        },
+                        "id": "cc6e39cd-f12d-48f3-a186-655fdb5dbdcf"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "35",
+                          "value": {
+                            "type": "true"
+                          },
+                          "__collapse": true
+                        },
+                        "id": "1bcad1f2-13da-49ce-99c4-abde96980383"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "dc72a9a4-807e-478d-b6d6-c2581d010349"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "gte",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "19"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 100
+                      }
+                    },
+                    "__collapseElse": true,
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Guido fühlte sich so\nerfüllt, dass er\nNeues entdecken\nwollte."
+                          ],
+                          "__section": "text",
+                          "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": true
+                        },
+                        "id": "a0516848-24b5-49d6-b399-656fe605b54a"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_DEACTIVATE",
+                        "args": {
+                          "actorId": "8e2d73a9-eaf9-4fa8-a493-854cecf2de8d",
+                          "__collapse": true
+                        },
+                        "id": "4110530d-e42a-411d-bffc-342f08c5a4bf"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "35",
+                          "value": {
+                            "type": "true"
+                          },
+                          "__collapse": true
+                        },
+                        "id": "9624edaa-974b-4b34-bdf9-db8b2d5aff04"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "0725b8e5-22af-4dce-94b1-a9af9b2c3c8e"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "lte",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "19"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": -100
+                      }
+                    },
+                    "__collapseElse": true,
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Guido war so\ngestresst, dass er\ngekündigt hat."
+                          ],
+                          "__section": "text",
+                          "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": true
+                        },
+                        "id": "93db7833-b117-4b63-af04-921518bc5d58"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_DEACTIVATE",
+                        "args": {
+                          "actorId": "8e2d73a9-eaf9-4fa8-a493-854cecf2de8d",
+                          "__collapse": true
+                        },
+                        "id": "773414af-19b8-43c6-87eb-bf0b414ac317"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "35",
+                          "value": {
+                            "type": "true"
+                          },
+                          "__collapse": true
+                        },
+                        "id": "c7a61802-06af-4523-80d2-b68c8832dc62"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "9ccfc5e7-c868-4c3c-977b-4da3fd09b964"
+                }
+              ],
+              "false": []
+            },
+            "id": "f488926f-2c69-4c15-adc3-94c94181b5f3"
           }
         ],
         "false": []
@@ -685,289 +984,13 @@
         "variable": "29",
         "value": {
           "type": "false"
-        }
+        },
+        "__comment": true
       },
       "id": "fe770152-bd15-482f-8347-22d8fb620a0e"
     }
   ],
-  "updateScript": [
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "gte",
-          "valueA": {
-            "type": "variable",
-            "value": "18"
-          },
-          "valueB": {
-            "type": "number",
-            "value": 100
-          }
-        },
-        "__collapseElse": true,
-        "__collapse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Guido hat aufgrund\nseiner Leistungen \neine andere Stelle \ngefunden."
-              ],
-              "__section": "text",
-              "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": true
-            },
-            "id": "dd07df15-da85-460e-8f24-73cbb215e9f4"
-          },
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "a6d9282b-318e-4792-998f-50fda6202a9f",
-              "__collapse": true
-            },
-            "id": "e27308fc-9e9a-423b-834d-5784e799a9df"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "35",
-              "value": {
-                "type": "true"
-              },
-              "__collapse": true
-            },
-            "id": "9e14e952-0bdd-43ab-bb68-f7a31ed64856"
-          }
-        ],
-        "false": []
-      },
-      "id": "aa3f2f79-bdbc-44ce-a69a-3239fae0467b"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "lte",
-          "valueA": {
-            "type": "variable",
-            "value": "18"
-          },
-          "valueB": {
-            "type": "number",
-            "value": -100
-          }
-        },
-        "__collapseElse": true,
-        "__collapse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Die Leistung von \nGuido war mangel-\nhaft, also wurde er \nentlassen."
-              ],
-              "__section": "text",
-              "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": true
-            },
-            "id": "ca9de05c-2d18-4fba-98db-d3a686451ab9"
-          },
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "a6d9282b-318e-4792-998f-50fda6202a9f",
-              "__collapse": true
-            },
-            "id": "c8381fac-0235-416d-9cf2-cbfc6678916a"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "35",
-              "value": {
-                "type": "true"
-              },
-              "__collapse": true
-            },
-            "id": "badc54a0-078d-467c-a65e-3c3435b01567"
-          }
-        ],
-        "false": []
-      },
-      "id": "08cca2ab-18c7-49c7-a312-8ee265e68dd9"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "gte",
-          "valueA": {
-            "type": "variable",
-            "value": "19"
-          },
-          "valueB": {
-            "type": "number",
-            "value": 100
-          }
-        },
-        "__collapseElse": true,
-        "__collapse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Guido fühlte sich so\nerfüllt, dass er\nNeues entdecken\nwollte."
-              ],
-              "__section": "text",
-              "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": true
-            },
-            "id": "bc59a2cd-cc73-4c0f-a069-a71382b5ea5d"
-          },
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "a6d9282b-318e-4792-998f-50fda6202a9f",
-              "__collapse": true
-            },
-            "id": "872b5c6c-fe86-4b17-80cd-0523176aeda4"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "35",
-              "value": {
-                "type": "true"
-              },
-              "__collapse": true
-            },
-            "id": "4bfce35f-8ff8-4507-9550-97bd76a237bc"
-          }
-        ],
-        "false": []
-      },
-      "id": "4e66daea-91b1-47d0-8bdd-0b860af3c96d"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "lte",
-          "valueA": {
-            "type": "variable",
-            "value": "19"
-          },
-          "valueB": {
-            "type": "number",
-            "value": -100
-          }
-        },
-        "__collapseElse": true,
-        "__collapse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Guido war so\ngestresst, dass er\ngekündigt hat."
-              ],
-              "__section": "text",
-              "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": true
-            },
-            "id": "198ab964-9e5d-44ea-88d5-5e25d7e960a4"
-          },
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "a6d9282b-318e-4792-998f-50fda6202a9f",
-              "__collapse": true
-            },
-            "id": "505ee3ab-f67c-474e-860e-6b949c426a31"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "35",
-              "value": {
-                "type": "true"
-              },
-              "__collapse": true
-            },
-            "id": "eb32a890-473f-436c-b709-4202b78503b1"
-          }
-        ],
-        "false": []
-      },
-      "id": "8a1e5c1f-94f8-4aa4-9721-a6c2780a432d"
-    }
-  ],
+  "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": []

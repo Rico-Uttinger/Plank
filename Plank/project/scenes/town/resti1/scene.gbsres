@@ -5,8 +5,8 @@
   "type": "TOPDOWN",
   "name": "town/Resti1",
   "symbol": "scene_17",
-  "x": 984,
-  "y": 88,
+  "x": 800,
+  "y": 96,
   "width": 20,
   "height": 18,
   "backgroundId": "a86f4ce2-3f42-4918-99e1-1eae7e2caaff",
@@ -82,7 +82,7 @@
             "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
               "actorId": "8f7c39f3-4295-437c-a095-d8f3ff2a192c",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "a81c2b90-6dcc-40c2-859f-2df950c337c2"
           }
