@@ -38,7 +38,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Was schmöckt do so \nverbrönnt?!"
+                "Auaaaa min Fenger \nBlüetet!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -56,7 +56,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "8ebb6ed8-6efd-44ad-8516-6aa4c7e81275"
           },
@@ -67,11 +67,11 @@
               "operation": "add",
               "other": "val",
               "vectorY": "L0",
-              "value": -15,
+              "value": -30,
               "minValue": "0",
               "maxValue": "32767",
               "clamp": false,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "d1d84bd4-1955-4abf-aec6-75f7de835c34"
           },
@@ -82,11 +82,11 @@
               "operation": "add",
               "other": "val",
               "vectorY": "L0",
-              "value": -10,
+              "value": -30,
               "minValue": "0",
               "maxValue": "32767",
               "clamp": false,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "c3afecfb-52f6-4875-b4af-12e331449a32"
           },
@@ -105,7 +105,7 @@
               "option8": "",
               "cancelOnB": true,
               "layout": "dialogue",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "e4837bab-e59b-4ab7-bcee-d57c46ebe9be"
           },
@@ -124,7 +124,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -133,9 +133,9 @@
                   "args": {
                     "variable": "28",
                     "items": 3,
-                    "option1": "Mega lustig",
-                    "option2": "Küss dein Auge Bruder",
-                    "option3": "Chund alles guet",
+                    "option1": "Seg Yalla Brudaaa",
+                    "option2": "Cringe",
+                    "option3": "Koch? Eher Kochlegende",
                     "option4": "",
                     "option5": "",
                     "option6": "",
@@ -162,7 +162,7 @@
                       }
                     },
                     "__collapseElse": false,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "children": {
                     "true": [
@@ -170,7 +170,7 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "Leistung -5\nMoral +30"
+                            "Leistung -5\nMoral +10"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -212,7 +212,7 @@
                           "operation": "add",
                           "other": "val",
                           "vectorY": "L0",
-                          "value": 30,
+                          "value": 10,
                           "minValue": "0",
                           "maxValue": "32767",
                           "clamp": false
@@ -239,7 +239,7 @@
                       }
                     },
                     "__collapseElse": true,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "children": {
                     "true": [
@@ -247,7 +247,7 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "Leistung +0\nMoral +50"
+                            "Leistung +10\nMoral -30"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -275,7 +275,7 @@
                           "operation": "add",
                           "other": "val",
                           "vectorY": "L0",
-                          "value": "0",
+                          "value": 10,
                           "minValue": "0",
                           "maxValue": "32767",
                           "clamp": false
@@ -286,10 +286,10 @@
                         "command": "EVENT_VARIABLE_MATH",
                         "args": {
                           "vectorX": "26",
-                          "operation": "add",
+                          "operation": "sub",
                           "other": "val",
                           "vectorY": "L0",
-                          "value": 50,
+                          "value": 30,
                           "minValue": "0",
                           "maxValue": "32767",
                           "clamp": false
@@ -316,7 +316,7 @@
                       }
                     },
                     "__collapseElse": false,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "children": {
                     "true": [
@@ -324,7 +324,7 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "Leistung 0\nMoral +40"
+                            "Leistung -10\nMoral +35"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -349,10 +349,10 @@
                         "command": "EVENT_VARIABLE_MATH",
                         "args": {
                           "vectorX": "25",
-                          "operation": "add",
+                          "operation": "sub",
                           "other": "val",
                           "vectorY": "L0",
-                          "value": 0,
+                          "value": 10,
                           "minValue": "0",
                           "maxValue": "32767",
                           "clamp": false
@@ -366,7 +366,7 @@
                           "operation": "add",
                           "other": "val",
                           "vectorY": "L0",
-                          "value": 40,
+                          "value": 35,
                           "minValue": "0",
                           "maxValue": "32767",
                           "clamp": false
@@ -398,7 +398,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -407,9 +407,9 @@
                   "args": {
                     "variable": "27",
                     "items": 3,
-                    "option1": "Dis Mami im Ofe",
-                    "option2": "Daddy chill",
-                    "option3": "Du wandelnde Unfall",
+                    "option1": "mmh meh Fleisch",
+                    "option2": "Tomatesauce hemmer ned",
+                    "option3": "Kenne keis Pardon",
                     "option4": "",
                     "option5": "",
                     "option6": "",
@@ -436,7 +436,7 @@
                       }
                     },
                     "__collapseElse": true,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "children": {
                     "true": [
@@ -444,7 +444,7 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "Leistung +10\nMoral -40"
+                            "Leistung +10\nMoral -20"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -486,7 +486,7 @@
                           "operation": "sub",
                           "other": "val",
                           "vectorY": "L0",
-                          "value": 40,
+                          "value": 20,
                           "minValue": "0",
                           "maxValue": "32767",
                           "clamp": false
@@ -513,7 +513,7 @@
                       }
                     },
                     "__collapseElse": true,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "children": {
                     "true": [
@@ -521,7 +521,7 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "Leistung +5\nMoral +10"
+                            "Leistung +15\nMoral -10"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -549,7 +549,7 @@
                           "operation": "add",
                           "other": "val",
                           "vectorY": "L0",
-                          "value": 5,
+                          "value": 15,
                           "minValue": "0",
                           "maxValue": "32767",
                           "clamp": false
@@ -560,7 +560,7 @@
                         "command": "EVENT_VARIABLE_MATH",
                         "args": {
                           "vectorX": "26",
-                          "operation": "add",
+                          "operation": "sub",
                           "other": "val",
                           "vectorY": "L0",
                           "value": 10,
@@ -590,7 +590,7 @@
                       }
                     },
                     "__collapseElse": true,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "children": {
                     "true": [
@@ -598,7 +598,7 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "Leistung +30\nMoral -60"
+                            "Leistung +20\nMoral -40"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -626,7 +626,7 @@
                           "operation": "add",
                           "other": "val",
                           "vectorY": "L0",
-                          "value": 30,
+                          "value": 20,
                           "minValue": "0",
                           "maxValue": "32767",
                           "clamp": false
@@ -640,7 +640,7 @@
                           "operation": "sub",
                           "other": "val",
                           "vectorY": "L0",
-                          "value": 60,
+                          "value": 40,
                           "minValue": "0",
                           "maxValue": "32767",
                           "clamp": false
