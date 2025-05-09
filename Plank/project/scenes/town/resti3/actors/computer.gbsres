@@ -17,7 +17,7 @@
   "_index": 1,
   "symbol": "actor_30",
   "x": 9,
-  "y": 6,
+  "y": 15,
   "script": [
     {
       "command": "EVENT_SOUND_PLAY_EFFECT",
@@ -68,7 +68,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -289,7 +289,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [

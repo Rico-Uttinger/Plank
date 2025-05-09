@@ -16,8 +16,8 @@
   "prefabScriptOverrides": {},
   "_index": 0,
   "symbol": "actor_24",
-  "x": 15,
-  "y": 11,
+  "x": 6,
+  "y": 4,
   "script": [
     {
       "command": "EVENT_IF",

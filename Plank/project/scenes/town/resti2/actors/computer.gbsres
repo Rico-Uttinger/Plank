@@ -17,7 +17,7 @@
   "_index": 1,
   "symbol": "actor_25",
   "x": 9,
-  "y": 6,
+  "y": 16,
   "script": [
     {
       "command": "EVENT_SOUND_PLAY_EFFECT",
