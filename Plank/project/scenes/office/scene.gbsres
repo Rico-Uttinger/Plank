@@ -10,11 +10,11 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0041+0f!0013+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f4+003+0f3+00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f4+002+0f4+0055+",
+  "collisions": "0055+0fa+00a+0f!008+0f!00a+0f!008+0f!00a+0f4+003+0f3+00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f4+002+0f4+0055+",
   "autoFadeSpeed": 1,
   "symbol": "scene_20",
-  "x": 608,
-  "y": 32,
+  "x": 1184,
+  "y": 288,
   "script": [
     {
       "command": "EVENT_MUSIC_STOP",

@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "d7ac46c3-95ed-4078-bfa0-e34bb81f3385",
-  "_index": 14,
+  "_index": 12,
   "name": "town/backup szene",
   "backgroundId": "95865907-8044-4ac7-96d1-fe1286b21436",
   "tilesetId": "",
@@ -13,8 +13,8 @@
   "collisions": "0028+0f!002+0f!0014+0f10+0028+0f3+003+0fa+006+0f!003+0f!008+0f!004+0f3+003+0fa+0018+0f2+007+0f6+006+0f!0013+0f3+0010+0f4+0060+",
   "autoFadeSpeed": 1,
   "symbol": "scene_2",
-  "x": 868.5714285714286,
-  "y": 517.1428571428571,
+  "x": 800,
+  "y": 392,
   "script": [
     {
       "command": "EVENT_MUSIC_STOP",

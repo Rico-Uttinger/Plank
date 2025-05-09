@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "18c424cd-1fe7-45e0-8706-20039521c0c4",
+  "id": "360591a5-dc98-4e60-97dd-0f11462c76fe",
   "name": "Machine",
   "frame": 0,
   "animate": true,
@@ -14,13 +14,13 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "_index": 5,
-  "symbol": "actor_32",
+  "_index": 4,
+  "symbol": "actor_3",
   "x": 6,
   "y": 7,
   "script": [
     {
-      "id": "bd286d32-3ca1-4919-bf23-94c249617161",
+      "id": "9273e24f-1798-4263-a42f-ed1bf17318fb",
       "command": "EVENT_TEXT",
       "args": {
         "text": "BEEP... BOOP...",

@@ -5,7 +5,7 @@
   "type": "TOPDOWN",
   "name": "ui/Title Screen",
   "symbol": "scene_title_screen",
-  "x": 328,
+  "x": 312,
   "y": 80,
   "width": 20,
   "height": 18,

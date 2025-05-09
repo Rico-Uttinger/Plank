@@ -65,7 +65,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -294,7 +294,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -325,7 +325,7 @@
             "command": "EVENT_INC_VALUE",
             "args": {
               "variable": "44",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "7466ccac-2957-496d-bf33-02489ab0734e"
           },

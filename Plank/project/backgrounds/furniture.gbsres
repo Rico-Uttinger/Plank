@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "b2245bdd-6569-4921-94f6-e66af1efaefc",
+  "name": "Furniture",
+  "symbol": "bg_furniture",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Furniture.png",
+  "tileColors": ""
+}

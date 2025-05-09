@@ -2,7 +2,7 @@
   "_resourceType": "sprite",
   "id": "3ab7df73-838c-4cb7-b827-c39ffe127330",
   "name": "bed",
-  "symbol": "sprite_bitsandbobs_no_scale_7",
+  "symbol": "sprite_bitsandbobs_no_scale",
   "numFrames": 8,
   "filename": "bed.png",
   "checksum": "1120dffd2149c2ad8c41342f5ccbdd90a449627c",

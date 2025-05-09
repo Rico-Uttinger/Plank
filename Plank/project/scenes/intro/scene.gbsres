@@ -13,8 +13,8 @@
   "collisions": "00400+",
   "autoFadeSpeed": 1,
   "symbol": "scene_15",
-  "x": 520,
-  "y": 80,
+  "x": 504,
+  "y": 88,
   "script": [
     {
       "command": "EVENT_MUSIC_PLAY",

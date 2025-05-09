@@ -5,7 +5,7 @@
   "type": "TOPDOWN",
   "name": "ui/Logo",
   "symbol": "scene_logo",
-  "x": 141,
+  "x": 125,
   "y": 75,
   "width": 20,
   "height": 18,

@@ -3,7 +3,7 @@
   "id": "93ea241e-4291-40b4-87b0-cbbf2199d1da",
   "_index": 8,
   "name": "town/Resti3",
-  "backgroundId": "95865907-8044-4ac7-96d1-fe1286b21436",
+  "backgroundId": "b2245bdd-6569-4921-94f6-e66af1efaefc",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -13,8 +13,8 @@
   "collisions": "0028+0f!002+0f!0014+0f10+0028+0f3+003+0fa+006+0f!003+0f!008+0f!004+0f3+003+0fa+0018+0f2+007+0f6+006+0f!0013+0f3+0010+0f4+0060+",
   "autoFadeSpeed": 1,
   "symbol": "scene_18",
-  "x": 1032,
-  "y": 80,
+  "x": 1384,
+  "y": 88,
   "script": [
     {
       "command": "EVENT_MUSIC_STOP",
