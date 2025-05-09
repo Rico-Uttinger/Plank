@@ -139,11 +139,11 @@
               "sceneId": "c22cad6f-1191-4623-911d-1ec9a7b52fe6",
               "x": {
                 "type": "number",
-                "value": 0
+                "value": 9
               },
               "y": {
                 "type": "number",
-                "value": 0
+                "value": 10
               },
               "direction": "",
               "fadeSpeed": "2"
