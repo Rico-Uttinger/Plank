@@ -24,6 +24,14 @@
       "id": "f8df0b7c-faa7-47cf-9adf-a696f57f5c6f"
     },
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "680daa33-92d8-4cbb-a022-b2b10894dd4d",
+        "__collapse": false
+      },
+      "id": "ec2cde3a-e6fe-4346-b42c-6179cc6ffda5"
+    },
+    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
@@ -130,7 +138,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
