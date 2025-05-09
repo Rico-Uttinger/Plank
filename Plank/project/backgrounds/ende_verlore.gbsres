@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "641ef649-9513-4264-bbc0-89cd04d7b976",
+  "name": "Ende_verlore",
+  "symbol": "bg_ende_verlore",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Ende_verlore.png",
+  "tileColors": "01168+"
+}
