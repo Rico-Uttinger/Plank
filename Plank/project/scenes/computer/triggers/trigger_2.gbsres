@@ -1,41 +1,33 @@
 {
   "_resourceType": "trigger",
-  "id": "1cc1dfa5-49d4-46ed-b22f-0463c8a3eefa",
+  "id": "67f5e96a-2c1c-4f7f-b1d5-08b417386bf7",
   "name": "",
   "prefabId": "",
-  "x": 4,
-  "y": 19,
-  "symbol": "trigger_21",
+  "x": 18,
+  "y": 1,
+  "symbol": "trigger_24",
   "prefabScriptOverrides": {},
-  "width": 8,
-  "height": 5,
+  "width": 1,
+  "height": 1,
   "script": [
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "text": [
-          "Gesammt Leistung \nGesammt Moral"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "sceneId": "82438e32-ddc3-43cf-904f-8bbecb1afbf6",
+        "x": {
+          "type": "number",
+          "value": 10
+        },
+        "y": {
+          "type": "number",
+          "value": 10
+        },
+        "direction": "",
+        "fadeSpeed": "2"
       },
-      "id": "3aae2dd2-c326-4375-ab4a-280bb460716a"
+      "id": "623fad2a-fc7f-466c-b47a-7efa06963b25"
     }
   ],
   "leaveScript": [],
-  "_index": 1
+  "_index": 6
 }
