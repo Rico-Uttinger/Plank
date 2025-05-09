@@ -197,19 +197,44 @@
       "symbol": "var_hidden_eve"
     },
     {
-      "id": "509",
-      "name": "Leistung_Average",
-      "symbol": "var_leistung_average"
-    },
-    {
-      "id": "510",
+      "id": "39",
       "name": "Leistung_Gesamt",
       "symbol": "var_leistung_gesamt"
     },
     {
-      "id": "511",
+      "id": "40",
+      "name": "Leistung_Average",
+      "symbol": "var_leistung_average"
+    },
+    {
+      "id": "41",
+      "name": "Moral_Gesamt",
+      "symbol": "var_moral_gesamt"
+    },
+    {
+      "id": "42",
+      "name": "Moral_Average",
+      "symbol": "var_moral_average"
+    },
+    {
+      "id": "43",
       "name": "Sterne",
       "symbol": "var_sterne"
+    },
+    {
+      "id": "509",
+      "name": "Variable 510",
+      "symbol": "var_variable_510"
+    },
+    {
+      "id": "510",
+      "name": "Variable 511",
+      "symbol": "var_variable_511"
+    },
+    {
+      "id": "511",
+      "name": "Variable 509",
+      "symbol": "var_variable_509"
     },
     {
       "id": "871ea302-1cc1-463c-b9d7-530aac38fe81__L0",
@@ -270,31 +295,6 @@
       "id": "5fa52cd0-57cd-414c-8b93-5601c6e9636f__L0",
       "name": "Defeated",
       "symbol": ""
-    },
-    {
-      "id": "39",
-      "name": "Leistung_Gesamt",
-      "symbol": "var_leistung_gesamt"
-    },
-    {
-      "id": "40",
-      "name": "Leistung_Average",
-      "symbol": "var_leistung_average"
-    },
-    {
-      "id": "41",
-      "name": "Moral_Gesamt",
-      "symbol": "var_moral_gesamt"
-    },
-    {
-      "id": "42",
-      "name": "Moral_Average",
-      "symbol": "var_moral_average"
-    },
-    {
-      "id": "43",
-      "name": "Sterne",
-      "symbol": "var_sterne"
     }
   ]
 }
