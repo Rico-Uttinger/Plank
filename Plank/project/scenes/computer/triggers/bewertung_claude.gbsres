@@ -1,0 +1,41 @@
+{
+  "_resourceType": "trigger",
+  "id": "5d6764e5-eb56-494e-bb03-209c3842e8cd",
+  "name": "Bewertung Claude",
+  "prefabId": "",
+  "x": 4,
+  "y": 4,
+  "symbol": "trigger_19",
+  "prefabScriptOverrides": {},
+  "width": 8,
+  "height": 5,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Aktuelle Leistung $21$\nAktuelle Moral $22$"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "34a6cf95-51c4-4994-beb8-2239679af817"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 3
+}

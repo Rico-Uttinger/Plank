@@ -1,0 +1,41 @@
+{
+  "_resourceType": "trigger",
+  "id": "fd8eac8e-59a6-4eab-baf3-a02151f8dca7",
+  "name": "",
+  "prefabId": "",
+  "x": 15,
+  "y": 11,
+  "symbol": "trigger_25",
+  "prefabScriptOverrides": {},
+  "width": 8,
+  "height": 6,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Aktuelle Leistung $25$\nAktuelle Moral $26$"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "78b351aa-7f95-4495-bec5-02133e520219"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}

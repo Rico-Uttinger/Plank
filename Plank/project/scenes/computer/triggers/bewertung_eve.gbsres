@@ -1,0 +1,41 @@
+{
+  "_resourceType": "trigger",
+  "id": "d0c5d5b2-e01d-451a-9343-5afa72335802",
+  "name": "Bewertung Eve",
+  "prefabId": "",
+  "x": 15,
+  "y": 4,
+  "symbol": "trigger_23",
+  "prefabScriptOverrides": {},
+  "width": 8,
+  "height": 5,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Aktuelle Leistung $23$\nAktuelle Moral $24$"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "dc7bdc49-aaba-4243-a456-5f22908d0c66"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

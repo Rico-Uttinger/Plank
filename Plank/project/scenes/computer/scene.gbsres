@@ -1,15 +1,15 @@
 {
   "_resourceType": "scene",
   "id": "c22cad6f-1191-4623-911d-1ec9a7b52fe6",
-  "_index": 6,
+  "_index": 5,
   "type": "POINTNCLICK",
-  "name": "Player's House",
+  "name": "Computer",
   "symbol": "scene_player_s_house",
-  "x": 148,
-  "y": 526,
-  "width": 20,
-  "height": 18,
-  "backgroundId": "0af9ba31-7864-4664-9603-b211dc0f3793",
+  "x": 1624,
+  "y": 136,
+  "width": 32,
+  "height": 32,
+  "backgroundId": "37969c23-6552-42a2-ad9c-60fd94b903b6",
   "tilesetId": "",
   "paletteIds": [
     "",
@@ -27,7 +27,8 @@
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "bc9f67e9-b6f2-4216-b8b6-63505f3b7118",
-        "__name": "Init Menu"
+        "__name": "Init Menu",
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -82,5 +83,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": ""
+  "collisions": "00400+"
 }

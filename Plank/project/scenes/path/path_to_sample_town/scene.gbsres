@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "f8f027ef-b818-4038-9eda-0ac477facb41",
-  "_index": 5,
+  "_index": 4,
   "type": "PLATFORM",
   "name": "path/Path to Sample Town",
   "symbol": "scene_path_to_sample_town",
@@ -51,14 +51,14 @@
                   "id": "dd21c899-25f7-41d8-a419-3a72e0b99ccb",
                   "command": "EVENT_SWITCH_SCENE",
                   "args": {
-                    "sceneId": "fd223a5f-7148-4705-98a7-b0ef56cb5c74",
+                    "sceneId": "94c18861-b352-4f49-a64d-52f2e3415077",
                     "x": {
                       "type": "number",
-                      "value": 0
+                      "value": 47
                     },
                     "y": {
                       "type": "number",
-                      "value": 0
+                      "value": 30
                     },
                     "direction": "",
                     "fadeSpeed": "2"

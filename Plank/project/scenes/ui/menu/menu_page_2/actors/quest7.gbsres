@@ -30,7 +30,7 @@
         "__collapse": false,
         "condition": {
           "type": "variable",
-          "value": "6"
+          "value": "25"
         }
       },
       "children": {
