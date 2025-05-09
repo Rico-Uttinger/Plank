@@ -98,8 +98,8 @@
     },
     {
       "id": "19",
-      "name": "vero",
-      "symbol": "var_vero"
+      "name": "Moral_Guido",
+      "symbol": "var_moral_guido"
     },
     {
       "id": "20",
@@ -128,13 +128,13 @@
     },
     {
       "id": "25",
-      "name": "Leistung_Veronique",
-      "symbol": "var_leistung_veronique"
+      "name": "Leistung_Vera",
+      "symbol": "var_leistung_vera"
     },
     {
       "id": "26",
-      "name": "Moral_Veronique",
-      "symbol": "var_moral_veronique"
+      "name": "Moral_Vera",
+      "symbol": "var_moral_vera"
     },
     {
       "id": "27",
@@ -158,8 +158,8 @@
     },
     {
       "id": "31",
-      "name": "bool_Veronique",
-      "symbol": "var_bool_veronique"
+      "name": "bool_Vera",
+      "symbol": "var_bool_vera"
     },
     {
       "id": "32",
