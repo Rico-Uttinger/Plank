@@ -1,0 +1,42 @@
+{
+  "_resourceType": "trigger",
+  "id": "d522331f-8116-4d51-b833-36c33b25fb2a",
+  "name": "Bewertung Guido",
+  "prefabId": "",
+  "x": 2,
+  "y": 6,
+  "symbol": "trigger_23",
+  "prefabScriptOverrides": {},
+  "width": 6,
+  "height": 3,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Guido's Leistung: $18$.\nGuido's Moral: $19$."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "f873aa81-6a65-4b44-9762-5db8fc7667b4"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 4
+}
