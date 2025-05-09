@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "8562e615-a587-42d4-bb97-9c9aa0fc1721",
+  "name": "Titlescreen_HerdAmLimit",
+  "symbol": "bg_titlescreen_herdamlimit",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Titlescreen_HerdAmLimit.png",
+  "tileColors": ""
+}

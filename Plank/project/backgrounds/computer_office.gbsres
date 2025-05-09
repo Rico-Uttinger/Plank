@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "54e90cf4-25ef-42ee-8826-7af5c531509d",
+  "name": "Computer_Office",
+  "symbol": "bg_computer_office",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Computer_Office.png",
+  "tileColors": ""
+}

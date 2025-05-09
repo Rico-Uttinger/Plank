@@ -1,36 +1,42 @@
 {
   "_resourceType": "scene",
-  "id": "da6368d1-2af3-4764-8518-4f85660fdbb5",
-  "_index": 11,
-  "type": "TOPDOWN",
-  "name": "Verlore",
-  "symbol": "scene_14",
-  "x": 1384,
-  "y": 472,
+  "id": "9a2485fc-10df-4b36-93db-fd8c9775fa0a",
+  "_index": 12,
+  "name": "Gwunne2",
+  "backgroundId": "578d1912-1187-4e56-9f31-f90b7993abc9",
+  "tilesetId": "",
   "width": 20,
   "height": 18,
-  "backgroundId": "641ef649-9513-4264-bbc0-89cd04d7b976",
-  "tilesetId": "",
+  "type": "TOPDOWN",
   "paletteIds": [
+    "default-bg-2",
+    "default-bg-2",
     "",
-    "default-bg-2"
+    "default-bg-2",
+    "444c886c-6214-48d7-8e3c-4dca4f65dec7",
+    "",
+    "9fb1f41b-54d4-43c6-8731-16de50176aa0"
   ],
   "spritePaletteIds": [],
+  "collisions": "",
   "autoFadeSpeed": 1,
+  "symbol": "scene_13",
+  "x": 1568,
+  "y": 296,
   "script": [
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "4178cb00-3327-410a-a596-9092d00a6de1"
+        "musicId": "577e3cdd-be7f-4af5-9657-485ec42513aa"
       },
-      "id": "27cbf823-c3da-4a00-8667-6748a8b48cc0"
+      "id": "e92a7686-c78e-4e52-9ccd-ba82381a8e17"
     },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$"
       },
-      "id": "454dd5e1-0d67-4518-910a-b7de3855ca94"
+      "id": "32b265a3-54b1-4de7-9297-b79787fd6889"
     },
     {
       "command": "EVENT_WAIT",
@@ -38,7 +44,7 @@
         "time": 3,
         "frames": 30
       },
-      "id": "2a042c82-f573-42dc-9966-d9304253b7fc"
+      "id": "bd491fe6-d541-4d68-a5b3-466991c3bd7f"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
@@ -55,11 +61,11 @@
         "direction": "",
         "fadeSpeed": "2"
       },
-      "id": "e44666a6-23d1-46cd-81e6-74e1c88b734b"
+      "id": "064e28de-f037-4c37-9b2f-7f29325f9207"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": ""
+  "autoFadeEventCollapse": true
 }
