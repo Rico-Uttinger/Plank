@@ -41,7 +41,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Alteeee"
+                "De Salat isch gfrohre"
               ],
               "__section": "text",
               "avatarId": "",
@@ -70,7 +70,7 @@
               "operation": "add",
               "other": "val",
               "vectorY": "L0",
-              "value": -20,
+              "value": 0,
               "minValue": "0",
               "maxValue": "32767",
               "clamp": false,
@@ -85,7 +85,7 @@
               "operation": "add",
               "other": "val",
               "vectorY": "L0",
-              "value": -30,
+              "value": -5,
               "minValue": "0",
               "maxValue": "32767",
               "clamp": false,
@@ -410,8 +410,8 @@
                   "args": {
                     "variable": "28",
                     "items": 3,
-                    "option1": "Mega lustig",
-                    "option2": "Küss dein Auge Bruder",
+                    "option1": "Haha cool",
+                    "option2": "Ja Yolo!",
                     "option3": "Chund alles guet",
                     "option4": "",
                     "option5": "",
@@ -447,7 +447,7 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "Leistung -5\nMoral +30"
+                            "Leistung -5\nMoral +15"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -489,7 +489,7 @@
                           "operation": "add",
                           "other": "val",
                           "vectorY": "L0",
-                          "value": 30,
+                          "value": 15,
                           "minValue": "0",
                           "maxValue": "32767",
                           "clamp": false
@@ -524,7 +524,7 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "Leistung +0\nMoral +50"
+                            "Leistung +5\nMoral +5"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -552,7 +552,7 @@
                           "operation": "add",
                           "other": "val",
                           "vectorY": "L0",
-                          "value": "0",
+                          "value": 5,
                           "minValue": "0",
                           "maxValue": "32767",
                           "clamp": false
@@ -566,7 +566,7 @@
                           "operation": "add",
                           "other": "val",
                           "vectorY": "L0",
-                          "value": 50,
+                          "value": 5,
                           "minValue": "0",
                           "maxValue": "32767",
                           "clamp": false
@@ -593,7 +593,7 @@
                       }
                     },
                     "__collapseElse": false,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "children": {
                     "true": [

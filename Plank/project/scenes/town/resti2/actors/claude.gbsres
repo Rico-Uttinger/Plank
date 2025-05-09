@@ -38,7 +38,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Perfekt uf e Punkt!"
+                "So gads guet!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -67,7 +67,7 @@
               "operation": "add",
               "other": "val",
               "vectorY": "L0",
-              "value": 5,
+              "value": 10,
               "minValue": "0",
               "maxValue": "32767",
               "clamp": false,
@@ -82,7 +82,7 @@
               "operation": "add",
               "other": "val",
               "vectorY": "L0",
-              "value": 10,
+              "value": 5,
               "minValue": "0",
               "maxValue": "32767",
               "clamp": false,
@@ -105,7 +105,7 @@
               "option8": "",
               "cancelOnB": true,
               "layout": "dialogue",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "db516dd7-ccdd-40cc-bc24-1efe7d3b1890"
           },
@@ -133,9 +133,9 @@
                   "args": {
                     "variable": "28",
                     "items": 3,
-                    "option1": "Mega lustig",
+                    "option1": "Yaaaaas",
                     "option2": "Küss dein Auge Bruder",
-                    "option3": "Chund alles guet",
+                    "option3": "Chefkochlegende",
                     "option4": "",
                     "option5": "",
                     "option6": "",
@@ -187,7 +187,8 @@
                           "closeWhen": "key",
                           "closeButton": "a",
                           "closeDelayTime": 0.5,
-                          "closeDelayFrames": 30
+                          "closeDelayFrames": 30,
+                          "__collapse": true
                         },
                         "id": "d02b6302-8357-448b-a3d6-955b49d4eff9"
                       },
@@ -201,7 +202,8 @@
                           "value": 5,
                           "minValue": "0",
                           "maxValue": "32767",
-                          "clamp": false
+                          "clamp": false,
+                          "__collapse": true
                         },
                         "id": "596ffb4b-4c02-40ee-8dce-a578f940882c"
                       },
@@ -324,7 +326,7 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "Leistung 0\nMoral +40"
+                            "Leistung -10\nMoral +35"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -341,7 +343,8 @@
                           "closeWhen": "key",
                           "closeButton": "a",
                           "closeDelayTime": 0.5,
-                          "closeDelayFrames": 30
+                          "closeDelayFrames": 30,
+                          "__collapse": true
                         },
                         "id": "ef6af538-fb3e-4441-964b-765c9e73122a"
                       },
@@ -352,10 +355,11 @@
                           "operation": "add",
                           "other": "val",
                           "vectorY": "L0",
-                          "value": 0,
+                          "value": -10,
                           "minValue": "0",
                           "maxValue": "32767",
-                          "clamp": false
+                          "clamp": false,
+                          "__collapse": true
                         },
                         "id": "afc157d6-eafe-4bff-81bc-7492dba768d6"
                       },
@@ -366,10 +370,11 @@
                           "operation": "add",
                           "other": "val",
                           "vectorY": "L0",
-                          "value": 40,
+                          "value": 35,
                           "minValue": "0",
                           "maxValue": "32767",
-                          "clamp": false
+                          "clamp": false,
+                          "__collapse": true
                         },
                         "id": "1022d677-4205-46d1-b9b7-b4acdd9c4a8d"
                       }
@@ -407,9 +412,9 @@
                   "args": {
                     "variable": "27",
                     "items": 3,
-                    "option1": "Dis Mami",
+                    "option1": "Meinsch ernst?",
                     "option2": "Daddy chill",
-                    "option3": "Du wandelnde Unfall",
+                    "option3": "Schlecht",
                     "option4": "",
                     "option5": "",
                     "option6": "",
@@ -417,7 +422,7 @@
                     "option8": "",
                     "cancelOnB": true,
                     "layout": "dialogue",
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "273e289a-3142-483a-b5cf-6c7f1a806103"
                 },
@@ -444,7 +449,7 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "Leistung +10\nMoral -40"
+                            "Leistung +15\nMoral -30"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -461,7 +466,8 @@
                           "closeWhen": "key",
                           "closeButton": "a",
                           "closeDelayTime": 0.5,
-                          "closeDelayFrames": 30
+                          "closeDelayFrames": 30,
+                          "__collapse": true
                         },
                         "id": "0b97dc0d-195a-4e46-899c-6f29c8767948"
                       },
@@ -472,10 +478,11 @@
                           "operation": "add",
                           "other": "val",
                           "vectorY": "L0",
-                          "value": 10,
+                          "value": 15,
                           "minValue": "0",
                           "maxValue": "32767",
-                          "clamp": false
+                          "clamp": false,
+                          "__collapse": true
                         },
                         "id": "7777f441-1d58-464d-9f38-7a2beabced3a"
                       },
@@ -486,10 +493,11 @@
                           "operation": "sub",
                           "other": "val",
                           "vectorY": "L0",
-                          "value": 40,
+                          "value": 30,
                           "minValue": "0",
                           "maxValue": "32767",
-                          "clamp": false
+                          "clamp": false,
+                          "__collapse": true
                         },
                         "id": "ba5f4aad-06a7-4791-b9ed-e781d0c13df0"
                       }
@@ -598,7 +606,7 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "Leistung +30\nMoral -60"
+                            "Leistung +20\nMoral -35"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -626,7 +634,7 @@
                           "operation": "add",
                           "other": "val",
                           "vectorY": "L0",
-                          "value": 30,
+                          "value": 20,
                           "minValue": "0",
                           "maxValue": "32767",
                           "clamp": false
@@ -640,7 +648,7 @@
                           "operation": "sub",
                           "other": "val",
                           "vectorY": "L0",
-                          "value": 60,
+                          "value": 35,
                           "minValue": "0",
                           "maxValue": "32767",
                           "clamp": false

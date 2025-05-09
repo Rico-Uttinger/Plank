@@ -124,7 +124,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -401,7 +401,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -420,7 +420,7 @@
                     "option8": "",
                     "cancelOnB": true,
                     "layout": "dialogue",
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "id": "5e190fc5-4551-454e-a20c-758f597bb75e"
                 },

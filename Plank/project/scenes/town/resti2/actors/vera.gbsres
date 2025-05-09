@@ -56,7 +56,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "d98b4dcd-cbe1-422a-b98b-01b6e63d3f85"
           },
@@ -143,7 +143,7 @@
                     "option8": "",
                     "cancelOnB": true,
                     "layout": "dialogue",
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "id": "712e91fa-b941-4fff-a001-47880ead8d21"
                 },
