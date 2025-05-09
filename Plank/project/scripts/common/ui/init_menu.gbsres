@@ -27,14 +27,14 @@
             "id": "dd21c899-25f7-41d8-a419-3a72e0b99ccb",
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "94c18861-b352-4f49-a64d-52f2e3415077",
+              "sceneId": "4ebc5249-2878-434c-aab7-091dec325fc6",
               "x": {
                 "type": "number",
-                "value": 47
+                "value": 13
               },
               "y": {
                 "type": "number",
-                "value": 30
+                "value": 4
               },
               "direction": "",
               "fadeSpeed": "2"

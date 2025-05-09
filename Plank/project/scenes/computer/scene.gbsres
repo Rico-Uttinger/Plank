@@ -5,10 +5,10 @@
   "type": "POINTNCLICK",
   "name": "Computer",
   "symbol": "scene_player_s_house",
-  "x": 1624,
-  "y": 136,
-  "width": 32,
-  "height": 32,
+  "x": 1536,
+  "y": 280,
+  "width": 20,
+  "height": 18,
   "backgroundId": "37969c23-6552-42a2-ad9c-60fd94b903b6",
   "tilesetId": "",
   "paletteIds": [
@@ -83,5 +83,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "00400+"
+  "collisions": ""
 }

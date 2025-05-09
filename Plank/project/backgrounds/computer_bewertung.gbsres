@@ -3,10 +3,11 @@
   "id": "37969c23-6552-42a2-ad9c-60fd94b903b6",
   "name": "computer_bewertung",
   "symbol": "bg_computer_bewertung",
-  "width": 32,
-  "height": 32,
-  "imageWidth": 256,
-  "imageHeight": 256,
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
   "filename": "computer_bewertung.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

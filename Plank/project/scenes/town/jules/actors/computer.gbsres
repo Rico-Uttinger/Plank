@@ -28,7 +28,8 @@
         "frequency": 200,
         "duration": 0.5,
         "wait": true,
-        "effect": 0
+        "effect": 0,
+        "__collapse": true
       },
       "id": "81e0e15b-06e3-4912-8e8f-6d64b9ca4859"
     },
@@ -93,7 +94,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "2c380280-a057-4053-ba08-eec953eee59c"
           },
@@ -103,7 +104,7 @@
               "variable": "34",
               "trueText": "Jo",
               "falseText": "Nö",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "81fe6f3d-d4bf-4f9e-8f08-9a383700b381"
           }
@@ -136,221 +137,21 @@
             "id": "dd9d2b23-0f01-462f-9ce7-7f4e5dec8660"
           },
           {
-            "command": "EVENT_MENU",
+            "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "variable": "30",
-              "items": 4,
-              "option1": "Guido",
-              "option2": "Vera",
-              "option3": "Claude",
-              "option4": "Eve",
-              "option5": "",
-              "option6": "",
-              "option7": "",
-              "option8": "",
-              "cancelOnB": true,
-              "layout": "dialogue",
-              "__collapse": true
-            },
-            "id": "6adaf169-7775-40f0-a341-51e82345d19a"
-          },
-          {
-            "command": "EVENT_IF",
-            "args": {
-              "condition": {
-                "type": "eq",
-                "valueA": {
-                  "type": "variable",
-                  "value": "30"
-                },
-                "valueB": {
-                  "type": "number",
-                  "value": 1
-                }
+              "sceneId": "c22cad6f-1191-4623-911d-1ec9a7b52fe6",
+              "x": {
+                "type": "number",
+                "value": 0
               },
-              "__collapseElse": true,
-              "__collapse": true
-            },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "text": [
-                      "Guido's Leistung: $18$.\nGuido's Moral: $19$."
-                    ],
-                    "__section": "text",
-                    "avatarId": "",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30,
-                    "__collapse": false
-                  },
-                  "id": "28bf14c3-c823-46c6-8759-4761631bc13f"
-                }
-              ],
-              "false": []
-            },
-            "id": "49dd6034-f532-4b14-9630-1524a14f446f"
-          },
-          {
-            "command": "EVENT_IF",
-            "args": {
-              "condition": {
-                "type": "eq",
-                "valueA": {
-                  "type": "variable",
-                  "value": "30"
-                },
-                "valueB": {
-                  "type": "number",
-                  "value": 2
-                }
+              "y": {
+                "type": "number",
+                "value": 0
               },
-              "__collapseElse": true,
-              "__collapse": false
+              "direction": "",
+              "fadeSpeed": "2"
             },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "text": [
-                      "Vera's Leistung: $25$.\nVera's Moral: $26$."
-                    ],
-                    "__section": "text",
-                    "avatarId": "",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30
-                  },
-                  "id": "43acdec1-f6d2-470b-86b6-78a74e00ca36"
-                }
-              ],
-              "false": []
-            },
-            "id": "03541ecc-8d1c-4638-a311-9014b8fa8f82"
-          },
-          {
-            "command": "EVENT_IF",
-            "args": {
-              "condition": {
-                "type": "eq",
-                "valueA": {
-                  "type": "variable",
-                  "value": "30"
-                },
-                "valueB": {
-                  "type": "number",
-                  "value": 3
-                }
-              },
-              "__collapseElse": true,
-              "__collapse": true
-            },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "text": [
-                      "Claude's Leistung: $21$.\nClaude's Moral: $22$."
-                    ],
-                    "__section": "text",
-                    "avatarId": "",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30,
-                    "__collapse": false
-                  },
-                  "id": "5863735d-7c40-44cb-956c-f678e6740eaf"
-                }
-              ],
-              "false": []
-            },
-            "id": "fe0eaf4d-d1df-41ba-9a76-320e2ff5201c"
-          },
-          {
-            "command": "EVENT_IF",
-            "args": {
-              "condition": {
-                "type": "eq",
-                "valueA": {
-                  "type": "variable",
-                  "value": "30"
-                },
-                "valueB": {
-                  "type": "number",
-                  "value": 4
-                }
-              },
-              "__collapseElse": true,
-              "__collapse": true
-            },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "text": [
-                      "Eve's Leistung: $23$.\nEve's Moral: $24$."
-                    ],
-                    "__section": "text",
-                    "avatarId": "",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30
-                  },
-                  "id": "d80660b5-ebc0-4192-a85b-bbad4919d8ff"
-                }
-              ],
-              "false": []
-            },
-            "id": "ba548383-5069-4e3e-9022-12ff3aa83b5d"
+            "id": "2481c46b-1c71-456c-89da-77ddb4e84927"
           }
         ]
       },

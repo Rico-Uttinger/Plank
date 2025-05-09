@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "94551b97-e498-401d-94f5-3296e89d3da9",
+  "name": "guet_nacht",
+  "symbol": "bg_guet_nacht",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "guet_nacht.png",
+  "tileColors": ""
+}
