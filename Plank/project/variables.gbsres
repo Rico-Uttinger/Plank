@@ -255,6 +255,21 @@
       "id": "5fa52cd0-57cd-414c-8b93-5601c6e9636f__L0",
       "name": "Defeated",
       "symbol": ""
+    },
+    {
+      "id": "510",
+      "name": "Leistung_Gesamt",
+      "symbol": "var_leistung_gesamt"
+    },
+    {
+      "id": "511",
+      "name": "Sterne",
+      "symbol": "var_sterne"
+    },
+    {
+      "id": "509",
+      "name": "Leistung_Average",
+      "symbol": "var_leistung_average"
     }
   ]
 }
