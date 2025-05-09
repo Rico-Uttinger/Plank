@@ -186,7 +186,7 @@
             }
           }
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "5cc80f0f-8b24-429a-b6cf-6740aec098f3"
     },
@@ -343,7 +343,7 @@
               },
               "direction": "",
               "fadeSpeed": "2",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "4b264ead-b0f3-481c-a209-a9361f4e5996"
           },
@@ -508,17 +508,6 @@
               "false": []
             },
             "id": "b113caa1-62e3-444e-9233-2731356967b5"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "34",
-              "value": {
-                "type": "false"
-              },
-              "__collapse": true
-            },
-            "id": "06f75f90-fec8-4e57-94bb-80d7b094123f"
           }
         ],
         "false": []
