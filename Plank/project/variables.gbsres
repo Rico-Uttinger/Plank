@@ -295,6 +295,11 @@
       "id": "5fa52cd0-57cd-414c-8b93-5601c6e9636f__L0",
       "name": "Defeated",
       "symbol": ""
+    },
+    {
+      "id": "44",
+      "name": "SleepCounter",
+      "symbol": "var_sleepcounter"
     }
   ]
 }
