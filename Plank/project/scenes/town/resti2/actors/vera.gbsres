@@ -38,7 +38,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Was schmöckt do so \nverbrönnt?!"
+                "Ich bin im Flow-Modus"
               ],
               "__section": "text",
               "avatarId": "",
@@ -67,7 +67,7 @@
               "operation": "add",
               "other": "val",
               "vectorY": "L0",
-              "value": -15,
+              "value": 20,
               "minValue": "0",
               "maxValue": "32767",
               "clamp": false,
@@ -82,7 +82,7 @@
               "operation": "add",
               "other": "val",
               "vectorY": "L0",
-              "value": -10,
+              "value": 10,
               "minValue": "0",
               "maxValue": "32767",
               "clamp": false,
@@ -133,9 +133,9 @@
                   "args": {
                     "variable": "28",
                     "items": 3,
-                    "option1": "Mega lustig",
-                    "option2": "Küss dein Auge Bruder",
-                    "option3": "Chund alles guet",
+                    "option1": "Habibi",
+                    "option2": "Yolo",
+                    "option3": "Herdplatte Held",
                     "option4": "",
                     "option5": "",
                     "option6": "",
@@ -170,7 +170,7 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "Leistung -5\nMoral +30"
+                            "Leistung -20\nMoral +40"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -198,7 +198,7 @@
                           "operation": "sub",
                           "other": "val",
                           "vectorY": "L0",
-                          "value": 5,
+                          "value": 20,
                           "minValue": "0",
                           "maxValue": "32767",
                           "clamp": false
@@ -212,7 +212,7 @@
                           "operation": "add",
                           "other": "val",
                           "vectorY": "L0",
-                          "value": 30,
+                          "value": 40,
                           "minValue": "0",
                           "maxValue": "32767",
                           "clamp": false
@@ -247,7 +247,7 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "Leistung +0\nMoral +50"
+                            "Leistung +5\nMoral +5"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -275,7 +275,7 @@
                           "operation": "add",
                           "other": "val",
                           "vectorY": "L0",
-                          "value": "0",
+                          "value": 5,
                           "minValue": "0",
                           "maxValue": "32767",
                           "clamp": false
@@ -289,7 +289,7 @@
                           "operation": "add",
                           "other": "val",
                           "vectorY": "L0",
-                          "value": 50,
+                          "value": 5,
                           "minValue": "0",
                           "maxValue": "32767",
                           "clamp": false
@@ -324,7 +324,7 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "Leistung 0\nMoral +40"
+                            "Leistung -20\nMoral +40"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -349,10 +349,10 @@
                         "command": "EVENT_VARIABLE_MATH",
                         "args": {
                           "vectorX": "25",
-                          "operation": "add",
+                          "operation": "sub",
                           "other": "val",
                           "vectorY": "L0",
-                          "value": 0,
+                          "value": 20,
                           "minValue": "0",
                           "maxValue": "32767",
                           "clamp": false
@@ -407,9 +407,9 @@
                   "args": {
                     "variable": "27",
                     "items": 3,
-                    "option1": "Dis Mami im Ofe",
-                    "option2": "Daddy chill",
-                    "option3": "Du wandelnde Unfall",
+                    "option1": "Du stinksch",
+                    "option2": "Besch s Glace im Ofe",
+                    "option3": "Hör uf z prahle",
                     "option4": "",
                     "option5": "",
                     "option6": "",
@@ -444,7 +444,7 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "Leistung +10\nMoral -40"
+                            "Leistung +20\nMoral -50"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -472,7 +472,7 @@
                           "operation": "add",
                           "other": "val",
                           "vectorY": "L0",
-                          "value": 10,
+                          "value": 20,
                           "minValue": "0",
                           "maxValue": "32767",
                           "clamp": false
@@ -486,7 +486,7 @@
                           "operation": "sub",
                           "other": "val",
                           "vectorY": "L0",
-                          "value": 40,
+                          "value": 50,
                           "minValue": "0",
                           "maxValue": "32767",
                           "clamp": false
@@ -521,7 +521,7 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "Leistung +5\nMoral +10"
+                            "Leistung +10\nMoral -40"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -549,7 +549,7 @@
                           "operation": "add",
                           "other": "val",
                           "vectorY": "L0",
-                          "value": 5,
+                          "value": 10,
                           "minValue": "0",
                           "maxValue": "32767",
                           "clamp": false
@@ -560,10 +560,10 @@
                         "command": "EVENT_VARIABLE_MATH",
                         "args": {
                           "vectorX": "26",
-                          "operation": "add",
+                          "operation": "sub",
                           "other": "val",
                           "vectorY": "L0",
-                          "value": 10,
+                          "value": 40,
                           "minValue": "0",
                           "maxValue": "32767",
                           "clamp": false
@@ -598,7 +598,7 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "Leistung +30\nMoral -60"
+                            "Leistung +20\nMoral -30"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -626,7 +626,7 @@
                           "operation": "add",
                           "other": "val",
                           "vectorY": "L0",
-                          "value": 30,
+                          "value": 20,
                           "minValue": "0",
                           "maxValue": "32767",
                           "clamp": false
@@ -640,7 +640,7 @@
                           "operation": "sub",
                           "other": "val",
                           "vectorY": "L0",
-                          "value": 60,
+                          "value": 30,
                           "minValue": "0",
                           "maxValue": "32767",
                           "clamp": false
@@ -967,7 +967,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 5,
-  "y": 10,
+  "x": 6,
+  "y": 9,
   "_index": 2
 }
