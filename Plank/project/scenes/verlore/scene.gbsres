@@ -1,25 +1,33 @@
 {
   "_resourceType": "scene",
   "id": "da6368d1-2af3-4764-8518-4f85660fdbb5",
-  "_index": 13,
-  "name": "Verlore",
-  "backgroundId": "641ef649-9513-4264-bbc0-89cd04d7b976",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
+  "_index": 11,
   "type": "TOPDOWN",
-  "paletteIds": [
-    null,
-    "default-bg-2"
-  ],
-  "spritePaletteIds": [],
-  "collisions": "",
-  "autoFadeSpeed": 1,
+  "name": "Verlore",
   "symbol": "scene_14",
   "x": 1432,
   "y": 488,
-  "script": [],
+  "width": 20,
+  "height": 18,
+  "backgroundId": "641ef649-9513-4264-bbc0-89cd04d7b976",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "default-bg-2"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "4178cb00-3327-410a-a596-9092d00a6de1"
+      },
+      "id": "27cbf823-c3da-4a00-8667-6748a8b48cc0"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "collisions": ""
 }
