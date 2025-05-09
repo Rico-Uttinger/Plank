@@ -1,6 +1,6 @@
 {
   "_resourceType": "background",
-  "id": "94551b97-e498-401d-94f5-3296e89d3da9",
+  "id": "441ca3c7-950e-418e-bb1a-62fb80ee3d05",
   "name": "guet_nacht",
   "symbol": "bg_guet_nacht",
   "width": 20,
@@ -8,6 +8,5 @@
   "imageWidth": 160,
   "imageHeight": 144,
   "filename": "guet_nacht.png",
-  "tileColors": "",
-  "autoColor": false
+  "tileColors": ""
 }

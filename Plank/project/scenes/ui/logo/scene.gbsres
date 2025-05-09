@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "382961a1-e615-4b92-92a7-f1a791b50b7a",
-  "_index": 4,
+  "_index": 13,
   "type": "TOPDOWN",
   "name": "ui/Logo",
   "symbol": "scene_logo",
@@ -9,7 +9,7 @@
   "y": 75,
   "width": 20,
   "height": 18,
-  "backgroundId": "f8b1c7ad-7bb2-44b2-8189-175ae8698f11",
+  "backgroundId": "dd12c575-366f-4f3a-b1bc-13b49e99e401",
   "tilesetId": "",
   "paletteIds": [],
   "spritePaletteIds": [],

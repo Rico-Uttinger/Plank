@@ -1,18 +1,18 @@
 {
   "_resourceType": "trigger",
-  "id": "6cf16df1-aaab-4366-a332-ba4668305f1f",
+  "id": "26f04148-32fd-46f8-aaa9-b6768804d494",
   "_index": 9,
-  "symbol": "trigger_11",
+  "symbol": "trigger_9",
   "prefabId": "",
   "name": "",
-  "x": 44,
-  "y": 28,
-  "width": 9,
+  "x": 36,
+  "y": 20,
+  "width": 7,
   "height": 1,
   "prefabScriptOverrides": {},
   "script": [
     {
-      "id": "8ca632e3-9666-4b6f-9c7b-0dbf2982d3b4",
+      "id": "53a22ae2-ebb9-4439-bbec-facedf0122dc",
       "command": "EVENT_IF",
       "args": {
         "variable": "10",
@@ -31,37 +31,36 @@
       "children": {
         "true": [
           {
-            "id": "783d406a-974b-4aca-98c1-15ff90525af7",
+            "id": "87a442e0-187a-4484-8396-566153da8ace",
             "command": "EVENT_IF_ACTOR_AT_POSITION",
             "args": {
               "actorId": "8e54ced2-d4e9-4eb9-9dcf-b6122f973ace",
               "x": {
                 "type": "number",
-                "value": 36
+                "value": 47
               },
               "y": {
                 "type": "number",
-                "value": 24
+                "value": 25
               },
-              "__collapseElse": false,
-              "__collapse": false
+              "__collapseElse": false
             },
             "children": {
               "true": [],
               "false": [
                 {
-                  "id": "3424533e-b62f-4947-834c-c65395ed43bb",
+                  "id": "c1375dbc-b5b8-4921-b058-b71f1f84d0ca",
                   "command": "EVENT_ACTOR_SET_DIRECTION",
                   "args": {
                     "actorId": "8e54ced2-d4e9-4eb9-9dcf-b6122f973ace",
                     "direction": {
                       "type": "direction",
-                      "value": "down"
+                      "value": "up"
                     }
                   }
                 },
                 {
-                  "id": "7e752fa7-b623-4d8b-83f0-d3be1fb7e35d",
+                  "id": "29f5de3c-2e46-4d94-b8e8-339119d3fcc8",
                   "command": "EVENT_ACTOR_EMOTE",
                   "args": {
                     "actorId": "8e54ced2-d4e9-4eb9-9dcf-b6122f973ace",
@@ -69,51 +68,34 @@
                   }
                 },
                 {
-                  "id": "d5aa9121-5fd8-499b-a32b-1fdbf78991a0",
+                  "id": "0d4eb13d-23ec-466d-bb04-d185fe034d93",
                   "command": "EVENT_ACTOR_MOVE_TO",
                   "args": {
                     "actorId": "8e54ced2-d4e9-4eb9-9dcf-b6122f973ace",
                     "x": {
                       "type": "number",
-                      "value": 44
+                      "value": 42
                     },
                     "y": {
                       "type": "number",
-                      "value": 19
+                      "value": 30
                     },
                     "moveType": "vertical",
                     "useCollisions": false
                   }
                 },
                 {
-                  "id": "35d3fc86-6e24-4e08-a5cf-7f891147511b",
+                  "id": "74df3598-4dd6-4842-9789-ec3f2e088b30",
                   "command": "EVENT_ACTOR_MOVE_TO",
                   "args": {
                     "actorId": "8e54ced2-d4e9-4eb9-9dcf-b6122f973ace",
                     "x": {
                       "type": "number",
-                      "value": 38
+                      "value": 47
                     },
                     "y": {
                       "type": "number",
-                      "value": 21
-                    },
-                    "moveType": "horizontal",
-                    "useCollisions": false
-                  }
-                },
-                {
-                  "id": "3a2b8c40-54d3-4c74-89c2-c2d8bdd564f1",
-                  "command": "EVENT_ACTOR_MOVE_TO",
-                  "args": {
-                    "actorId": "8e54ced2-d4e9-4eb9-9dcf-b6122f973ace",
-                    "x": {
-                      "type": "number",
-                      "value": 36
-                    },
-                    "y": {
-                      "type": "number",
-                      "value": 24
+                      "value": 25
                     },
                     "moveType": "horizontal",
                     "useCollisions": false,

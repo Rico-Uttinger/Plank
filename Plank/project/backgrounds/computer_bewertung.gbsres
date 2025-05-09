@@ -1,6 +1,6 @@
 {
   "_resourceType": "background",
-  "id": "37969c23-6552-42a2-ad9c-60fd94b903b6",
+  "id": "974301d3-7ae1-47b0-92a1-e4d3658075b9",
   "name": "computer_bewertung",
   "symbol": "bg_computer_bewertung",
   "width": 20,
@@ -8,6 +8,5 @@
   "imageWidth": 160,
   "imageHeight": 144,
   "filename": "computer_bewertung.png",
-  "tileColors": "",
-  "autoColor": false
+  "tileColors": ""
 }
