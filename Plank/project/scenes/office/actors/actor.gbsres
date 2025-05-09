@@ -64,8 +64,8 @@
             }
           }
         },
-        "__collapseElse": false,
-        "__collapse": false
+        "__collapseElse": true,
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -290,7 +290,7 @@
                 },
                 "valueB": {
                   "type": "number",
-                  "value": 3
+                  "value": 2
                 }
               },
               "__collapseElse": true,
